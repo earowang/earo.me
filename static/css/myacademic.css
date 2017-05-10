@@ -85,6 +85,7 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
+  padding: 5px;
   font-size: 1.65rem;
   display: table-cell;
   border-bottom: 5px solid rgb(165, 15, 21);
@@ -276,7 +277,7 @@ blockquote p:last-child {
 }
 
 #profile .portrait-title h3 {
-  font-size: 0.95em;
+  font-size: 0.75em;
   font-weight: 300;
   color: #AAAAAA;
   margin: 0px 0 10px 0;
