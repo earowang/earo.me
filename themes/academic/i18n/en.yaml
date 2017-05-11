@@ -8,6 +8,9 @@
 - id: btn_details
   translation: Details
 
+- id: btn_doi
+  translation: DOI
+
 - id: btn_pdf
   translation: PDF
 
