@@ -745,8 +745,8 @@ footer {
   margin: 0;
   padding: 78px 0 78px 0;
   width: 100%;
-  background-size: cover;
-  background-image: url('../img/footer.jpg');
+  /* background-size: cover; */
+  /* background-image: url('../img/footer.jpg'); */
 }
 
 footer p {
