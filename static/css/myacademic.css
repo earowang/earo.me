@@ -215,17 +215,18 @@ blockquote p:last-child {
 
 .home-section {
   background-color: rgb(255, 255, 255);
-  padding: 110px 0 110px 0;
+  padding: 78px 0 78px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s;
 }
 
 .home-section:first-of-type {
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .home-section:nth-of-type(even) {
-  background-color: rgb(247, 247, 247);
+  background-color: rgba(231, 225, 239, 0.3);
 }
 
 @media screen and (max-width: 768px) {
@@ -741,13 +742,15 @@ article {
  **************************************************/
 
 footer {
-  margin: 4rem 0 0;
-  padding: 2rem 0;
+  margin: 0;
+  padding: 78px 0 78px 0;
   width: 100%;
+  background-size: cover;
+  background-image: url('../img/footer.jpg');
 }
 
 footer p {
-  font-size: 0.75rem;
+  font-size: 1.05rem;
   text-align: center;
 }
 
