@@ -1,4 +1,4 @@
-baseurl = "http://earo.me"
+baseurl = "https://earo.me/"
 title = "Earo Wang"
 copyright = "&copy; 2017 Earo Wang"
 theme = "academic"
