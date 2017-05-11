@@ -3,7 +3,7 @@
 date = "2017-05-10"
 
 # Project title.
-title = "sugrrants"
+title = "sugrrants (dev)"
 
 # Project summary to display on homepage.
 summary = "Provide supporting graphs with R for analysing time series."

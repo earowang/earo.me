@@ -12,6 +12,7 @@ selected = true
 title = "Fast computation of reconciled forecasts for hierarchical and grouped time series"
 url_code = "https://CRAN.R-project.org/package=hts"
 url_project = "https://CRAN.R-project.org/package=hts"
-url_pdf = "http://dx.doi.org/10.1016/j.csda.2015.11.007"
+url_doi = "http://dx.doi.org/10.1016/j.csda.2015.11.007"
+url_pdf = "pdf/hgts.pdf"
 
 +++

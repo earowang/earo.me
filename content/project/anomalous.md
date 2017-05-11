@@ -3,7 +3,7 @@
 date = "2016-04-27"
 
 # Project title.
-title = "anomalous"
+title = "anomalous (dev)"
 
 # Project summary to display on homepage.
 summary = "Methods for detecting anomalous time series in feature space."

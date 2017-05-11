@@ -30,6 +30,14 @@ weight = 1
  
 +++
 
-<br>
-
 Earo is a second-year Ph.D. student in Department of Econometrics and Business Statistics at Monash University. Her research project focuses on tidy data structure and statistical visualisation to support exploration and modeling of temporal-context data, supervised by [Di Cook](http://dicook.github.io) and [Rob J Hyndman](http://robjhydnman.com).
+
+```{r}
+print(earowang)
+#> $uses
+#> [1] "r"    "rmd"  "vim"  "git"  "tmux"
+#> 
+#> $likes
+#> [1] "flat white"                 "four pillars gin w tonic"  
+#> [3] "haigh's dark choc"          "stir-fried eggs & tomatoes"
+```

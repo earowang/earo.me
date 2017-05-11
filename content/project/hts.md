@@ -3,7 +3,7 @@
 date = "2016-04-06"
 
 # Project title.
-title = "hts"
+title = "hts v5.0"
 
 # Project summary to display on homepage.
 summary = "Methods for analysing and forecasting hierarchical and grouped time series."
