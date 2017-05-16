@@ -35,9 +35,9 @@ Earo is a second-year Ph.D. student in Department of Econometrics and Business S
 ```{r}
 print(earowang)
 #> $uses
-#> [1] "r"    "rmd"  "vim"  "git"  "tmux"
+#> [1] "r"    "rmd"  "vim"  "git"  "zsh"
 #> 
 #> $likes
-#> [1] "flat white"                 "four pillars gin w tonic"  
-#> [3] "haigh's dark choc"          "stir-fried eggs & tomatoes"
+#> [1] "flat white ☕️"                "four pillars gin w tonic 🍸"
+#> [3] "haigh's dark choc 🍫"         "stir-fried eggs & tomatoes 🍳➕🍅"
 ```
