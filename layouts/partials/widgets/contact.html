@@ -15,7 +15,7 @@
 
       {{ with $.Site.Params.email }}
       <li>
-        <i class="fa-li fa fa-envelope fa-2x" aria-hidden="true"></i>
+        <!-- <i class="fa&#45;li fa fa&#45;envelope fa&#45;2x" aria&#45;hidden="true"></i> -->
         <span id="person-email" itemprop="email">
         {{- if $autolink }}<a href="mailto:{{ . }}">{{ . }}</a>{{ else }}{{ . }}{{ end -}}
         </span>
@@ -24,7 +24,7 @@
 
       {{ with $.Site.Params.keybase }}
       <li>
-        <i class="fa-li fa fa-lock fa-2x" aria-hidden="true"></i>
+        <!-- <i class="fa&#45;li fa fa&#45;lock fa&#45;2x" aria&#45;hidden="true"></i> -->
         <span>
           <a href="https://keybase.io/{{ . }}" target="_blank">@{{ . }}</a> on Keybase.
         </span>
@@ -33,7 +33,7 @@
 
       {{ with $.Site.Params.phone }}
       <li>
-        <i class="fa-li fa fa-phone fa-2x" aria-hidden="true"></i>
+        <!-- <i class="fa&#45;li fa fa&#45;phone fa&#45;2x" aria&#45;hidden="true"></i> -->
         <span id="person-telephone" itemprop="telephone">
         {{- if $autolink }}<a href="tel:{{ . }}">{{ . }}</a>{{ else }}{{ . }}{{ end -}}
         </span>
@@ -42,7 +42,7 @@
 
       {{ with $.Site.Params.skype }}
       <li>
-        <i class="fa-li fa fa-skype fa-2x" aria-hidden="true"></i>
+        <!-- <i class="fa&#45;li fa fa&#45;skype fa&#45;2x" aria&#45;hidden="true"></i> -->
         <span>
         {{- if $autolink }}<a href="skype:{{ . }}?call">{{ . }}</a>{{ else }}{{ . }}{{ end -}}
         </span>
@@ -51,7 +51,7 @@
 
       {{ with $.Site.Params.telegram }}
       <li>
-        <i class="fa-li fa fa-telegram fa-2x" aria-hidden="true"></i>
+        <!-- <i class="fa&#45;li fa fa&#45;telegram fa&#45;2x" aria&#45;hidden="true"></i> -->
         <span>
         {{- if $autolink }}<a href="https://telegram.me/{{ . }}" target="_blank">@{{ . }}</a>{{ else }}@{{ . }}{{ end -}}
         </span>
@@ -60,14 +60,14 @@
 
       {{ with $.Site.Params.address }}
       <li>
-        <i class="fa-li fa fa-map-marker fa-2x" aria-hidden="true"></i>
+        <!-- <i class="fa&#45;li fa fa&#45;map&#45;marker fa&#45;2x" aria&#45;hidden="true"></i> -->
         <span id="person-address" itemprop="address">{{ . }}</span>
       </li>
       {{ end }}
 
       {{ with $.Site.Params.office_hours }}
       <li>
-        <i class="fa-li fa fa-clock-o fa-2x" aria-hidden="true"></i>
+        <!-- <i class="fa&#45;li fa fa&#45;clock&#45;o fa&#45;2x" aria&#45;hidden="true"></i> -->
         <span>{{ . }}</span>
       </li>
       {{ end }}

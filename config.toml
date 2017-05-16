@@ -81,7 +81,7 @@ defaultContentLanguageInSubdir = false
   highlight_version = "9.9.0"
 
   # Enable native social sharing buttons?
-  sharing = true
+  sharing = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
