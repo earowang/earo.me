@@ -1,0 +1,56 @@
+---
+title: "Grammar of graphics"
+author: "Your name"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
+output: html_document
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE, cache = TRUE, messages = FALSE, warnings = FALSE
+)
+library(tidyverse)
+library(stringr)
+library(lubridate)
+```
+
+# Lab Session 4
+
+1. Download the [weather data](http://earo.me/data/medascin17/weather_2016.csv). The `weather` dataset contains the date a song first entered the Billboard Top 100 in 2000 and its rank over 75 weeks.
+
+2. Read the dataset into R and tidy it up for visualising with `ggplot2` later.
+
+```{r read}
+# If you have downloaded the data to the local disk, just replace the url with
+# the file path
+otway_weather <- read_csv("http://earo.me/data/medascin17/weather_2016.csv")
+otway_weather
+```
+
+```{r tidy}
+otway_tidy <- otway_weather %>% 
+  gather(DAY, VALUE, VALUE1:VALUE31) %>% 
+  mutate(
+    DAY = str_sub(DAY, start = 6),
+    DATE = ymd(paste(YEAR, MONTH, DAY, sep = "-"))
+  ) %>% 
+  arrange(DATE) %>% 
+  select(ID, DATE, ELEMENT, VALUE) %>% 
+  filter(!(is.na(DATE))) %>% 
+  mutate(
+    VALUE = if_else(VALUE < -999, NA_integer_, VALUE),
+    VALUE = VALUE / 10
+  ) %>% 
+  spread(ELEMENT, VALUE) %>% 
+  mutate(NAVG = (TMAX + TMIN) / 2)
+```
+
+```{r more}
+otway_more <- otway_tidy %>% 
+  mutate(
+    MONTH = month(DATE, label = TRUE),
+    DAY = mday(DATE)
+  ) 
+```
+
+3. Write some `ggplot2` code to reproduce the plot shown on the slides.

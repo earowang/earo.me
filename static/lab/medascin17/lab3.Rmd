@@ -1,0 +1,28 @@
+---
+title: "Tidy data"
+author: "Your name"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
+output: html_document
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE, cache = TRUE, messages = FALSE, warnings = FALSE
+)
+library(tidyverse)
+```
+
+# Lab Session 3
+
+1. Download the [billboard data](http://earo.me/data/medascin17/billboard.csv). The `billboard` dataset contains the date a song first entered the Billboard Top 100 in 2000 and its rank over 76 weeks.
+2. Read the dataset into R and take a look at the data.
+
+```{r read}
+# If you have downloaded the data to the local disk, just replace the url with
+# the file path
+billboard <- read_csv("http://earo.me/data/medascin17/billboard.csv")
+billboard
+```
+
+3. Transform the data to the long data form named as `billboard_long`.
+4. [Bonus] Split the `billboard_long` to two separate datasets as `song` and `rank`. The `song` data will include `artist`, `track`, `time` and a new column called `id` assigning a unique identifier for each song. The `rank` data will include the `id`, `date`, `week`, `rank` columns. The `id` column is the key variable that maintains the linking between two datasets.
