@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = earowang@earo.me:public_html
+	branch = master
