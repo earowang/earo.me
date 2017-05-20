@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = ssh://earo.me/home/earowang/public_html/
+	branch = master
