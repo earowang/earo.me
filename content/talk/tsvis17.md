@@ -1,6 +1,6 @@
 +++
 date = "2017-05-29"
-title = "Tidy data and statistical visualisation to support exploration of temporal data (Upcoming)"
+title = "Tidy data and statistical visualisation to support exploration of temporal data with R (Upcoming)"
 abstract = ""
 abstract_short = ""
 event = "Melbourne Data Science Week 2017"
@@ -11,7 +11,7 @@ selected = false
 math = true
 
 url_pdf = ""
-url_slides = "http://earo.me/medascin17-tsvis/"
+url_slides = "http://earo.me/slides/medascin17/"
 url_video = ""
 
 +++
