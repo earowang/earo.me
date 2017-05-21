@@ -750,7 +750,7 @@ footer {
   margin: 0;
   padding: 38px 0 18px 0;
   width: 100%;
-  background-color: rgba(231, 225, 239, 0.3);
+  background-color: rgba(0,0,0,0.8);
 }
 
 footer p {

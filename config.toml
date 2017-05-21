@@ -138,7 +138,7 @@ defaultContentLanguageInSubdir = false
     link = "//scholar.google.com.au/citations?user=7A78vfkAAAAJ&hl=en"
 
   [[params.social]]
-    icon = "github"
+    icon = "github-alt"
     icon_pack = "fa"
     link = "//github.com/earowang"
 
