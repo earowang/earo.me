@@ -173,11 +173,6 @@ defaultContentLanguageInSubdir = false
   url = "#teaching"
   weight = 5
 
-[[menu.main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 6
-
 # Taxonomies.
 [taxonomies]
   tag = "tags"

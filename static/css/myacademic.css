@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
-  padding: 5px;
+  padding: 3px;
   font-size: 1.65rem;
   display: table-cell;
   border-bottom: 5px solid rgb(165, 15, 21);
@@ -748,10 +748,9 @@ article {
 
 footer {
   margin: 0;
-  padding: 78px 0 78px 0;
+  padding: 38px 0 18px 0;
   width: 100%;
-  /* background-size: cover; */
-  /* background-image: url('../img/footer.jpg'); */
+  background-color: rgba(231, 225, 239, 0.3);
 }
 
 footer p {
