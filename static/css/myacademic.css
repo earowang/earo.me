@@ -6,10 +6,11 @@
  **************************************************/
 
 /* import google and font awesome fonts */
-@import url(https://fonts.googleapis.com/css?family=Rasa);
-@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
-@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url('https://fonts.googleapis.com/css?family=Amiri');
+@import url('https://fonts.googleapis.com/css?family=Molengo');
+@import url('https://fonts.googleapis.com/css?family=Cabin+Condensed');
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600);
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 /*************************************************
@@ -29,7 +30,7 @@
 }
 
 html {
-  font-family: 'Rasa', serif;
+  font-family: 'Amiri', serif;
   font-size: 24px;
   color: rgba(0,0,0,0.8);
   line-height: 1.65;
@@ -42,7 +43,7 @@ html {
 
 body {
   font-family: inherit;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   line-height: 1.4;
   color: inherit;
   margin-top: 71px; /* Offset body content by navbar height. */
@@ -69,7 +70,7 @@ ul, ol, dl {
 
 /* Navigation bar text */
 .navbar-default {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: 'Cabin Condensed', sans-serif;
   font-weight: 600;
   line-height: 2.25;
   text-rendering: optimizeLegibility;
@@ -77,7 +78,7 @@ ul, ol, dl {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Droid Sans', sans-serif;
+  font-family: 'Molengo', sans-serif;
   font-weight: 400;
   margin-bottom: .5rem;
   line-height: 1.25;
@@ -392,6 +393,9 @@ ul.share li:hover .fa {
 article {
   animation: intro 0.3s both;
   animation-delay: 0.15s;
+  font-family: 'EB Garamond', serif;
+  font-size: 22px;
+  line-height: 1.5em;
 }
 
 .article-container {
@@ -445,9 +449,9 @@ article {
 }
 
 .article-metadata {
-  margin-bottom: 20px;
+  margin: 10px 10px;
   line-height: 30px; /* Match share bar line height. */
-  font-size: 14px;
+  font-size: 24px;
   letter-spacing: 0.03em;
   color: #888;
 }
