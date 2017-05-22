@@ -30,7 +30,7 @@ weight = 1
  
 +++
 
-Earo is a second-year Ph.D. student in Department of Econometrics and Business Statistics at Monash University. Her research project focuses on tidy data structure and statistical visualisation to support exploration and modeling of temporal-context data, supervised by [Di Cook](http://dicook.github.io) and [Rob J Hyndman](http://robjhyndman.com).
+Hi, I'm Earo. I'm a second-year Ph.D. student in Department of Econometrics and Business Statistics at Monash University. My research project focuses on tidy data structure and statistical visualisation to support exploration and modeling of temporal-context data, supervised by [Di Cook](http://dicook.github.io) and [Rob J Hyndman](http://robjhyndman.com).
 
 ```{r}
 print(earowang)
