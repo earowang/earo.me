@@ -16,7 +16,7 @@ library(lubridate)
 
 # Lab Session 4
 
-1. Download the [weather data](http://earo.me/data/medascin17/weather_2016.csv). The `weather` dataset contains the date a song first entered the Billboard Top 100 in 2000 and its rank over 75 weeks.
+1. Download the [weather data](http://earo.me/data/medascin17/weather_2016.csv).
 
 2. Read the dataset into R and tidy it up for visualising with `ggplot2` later.
 
