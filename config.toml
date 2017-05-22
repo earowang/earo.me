@@ -149,7 +149,7 @@ defaultContentLanguageInSubdir = false
 #   The weight parameter defines the order that the links will appear in.
 
 [[menu.main]]
-  name = "Home"
+  name = "About"
   url = "#about"
   weight = 1
 
