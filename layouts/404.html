@@ -6,6 +6,14 @@
   <br>
   <p>Maybe you were looking for one of these?</p>
 
+  <h2>Recent Posts</h2>
+  {{ range last 20 (where .Data.Pages "Section" "=" "post") }}
+  <ul>
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+  </ul>
+  {{ end }}
+
+
   <h2>Recent Publications</h2>
   {{ range last 20 (where .Data.Pages "Section" "=" "publication") }}
   <ul>
