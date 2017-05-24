@@ -7,7 +7,7 @@
   <p>Maybe you were looking for one of these?</p>
 
   <h2>Recent Posts</h2>
-  {{ range last 20 (where .Data.Pages "Section" "=" "post") }}
+  {{ range last 5 (where .Data.Pages "Section" "=" "post") }}
   <ul>
     <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
   </ul>
@@ -15,7 +15,7 @@
 
 
   <h2>Recent Publications</h2>
-  {{ range last 20 (where .Data.Pages "Section" "=" "publication") }}
+  {{ range last 5 (where .Data.Pages "Section" "=" "publication") }}
   <ul>
     <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
   </ul>
