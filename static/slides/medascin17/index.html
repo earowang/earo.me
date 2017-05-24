@@ -40,6 +40,21 @@ class: center, middle, inverse, title-slide
     + plotly: `ggplotly()`, `plot_ly`, animation
     + shiny app: `wanderer4melb`
 
+???
+
+Lemme introduce myself a little bit. I'm currently doing my PhD at Monash, working
+with Di and Rob. My research is about visualising temporal data.
+
+This is what I'm going to cover for the next one hour and half. First, I'll talk
+about why `tidyverse` is great. `tidyverse` is a collection of R packages that
+center around the "tidy data" concept. We'll learn some verbs/functions that do 
+the data wrangling to get the tidy temporal data. Second, we'll learn about the 
+`ggplot2` that handles with plotting. You may wonder why it's called `ggplot2` 
+and what `gg` means. It's grammar of graphics for plots. I'll talk about how the
+`ggplot2` functions powered by the grammar help us to visualise time series data.
+In the final bit, I'm going to show you some demos about interactive graphics using
+`plotly` and `shiny`.
+
 ---
 
 background-image: url(img/stickers.001.png)
@@ -61,11 +76,23 @@ background-position: 60% 90%
 
 
 
+???
+
+Here's a list of R packages that we're going to use for this part. As I said
+before, `tidyverse` is a set of packages including `ggplot2`, `dplyr`, `readr`
+etc. `stringr` for strings and `forcats` for categorical variables. `lubridate`
+is for making dealing with dates easier. `plotly` and `shiny` for interactive
+graphics on the web.
+
 ---
 
 class: inverse middle center
 
 # Tidy data
+
+???
+
+Okay. Now, let's start with tidy data.
 
 ---
 
@@ -79,8 +106,14 @@ class: middle
 
 ???
 
-tidyverse assumes the underlying data structure is a rectangular cases-by-variables
-data layout.
+What is tidy data? What makes a dataset tidy?
+
+1.2.3
+
+The data structure is a rectangular cases-by-variables data layout that underlines
+the `tidyverse`.
+
+I'll use three datasets to explain what tidy data actually mean.
 
 ---
 
@@ -121,6 +154,21 @@ ped_loc %&gt;%
 .footnote[.red[*] source: [the city of Melbourne](http://www.pedestrian.melbourne.vic.gov.au)]
 ]
 
+???
+
+The first dataset we're going to look at is ...
+
+The dataset is sourced from Melbourne Open Data Portal. You can actually click
+here to check out the web page that hosts the dataset. Since 2009, the city of
+Melb started to install some sensors that capture the foot traffic every hour.
+This data can be used for urban planning or business management. For example,
+if you're a cafe owner, by looking at the hourly traffic to decide the trading
+hours. Until today, there are 43 sensors have been installed across the city.
+
+Here, I read the sensor locations data into R using `read_csv` from `readr` pkg.
+Rob has talked about the pipe operator. I pass the data to the `select` function
+and select four colnames, that is ...
+
 ---
 
 .left-column[
@@ -132,6 +180,11 @@ ped_loc %&gt;%
 
 &lt;img src="figure/ped-map-1.png" style="display: block; margin: auto;" /&gt;
 ]
+
+???
+
+As I know sensor's long and lat, I could plot these sensors on the map of Melb.
+It clearly shows the locations of these sensors.
 
 ---
 
@@ -193,6 +246,17 @@ ped_2017
 ```
 ]
 
+???
+
+Besides the locations, we're more interested in learning about the hourly pedestrian
+counts at every sensor. I read the second csv file that contains the pedestrian
+counts in March.
+
+For this data, there are 744 obs and 45 columns. ...
+
+Lemme me refer to this kind of format as wide format by contrast to long form.
+I'll explain what I mean by wide and long later.
+
 ---
 
 .left-column[
@@ -213,6 +277,18 @@ autoplot(sub_ped_ts, facet = TRUE)
 
 &lt;img src="figure/ped-ts-1.png" style="display: block; margin: auto;" /&gt;
 ]
+
+???
+
+The first tool I use to visualise the traffic pattern is `autoplot`.
+
+explain the code
+
+As you can see, different temporal patterns for different locations. You may think
+why `autoplot` gives you a conventional time series line plot instead of other
+types of plots like dot plots. Bc `autoplot` is an S3 method and it recognises
+the input as a `ts` class. So it knows how to deal with it by plotting the obs
+against the time index.
 
 ---
 
@@ -260,6 +336,20 @@ class(sub_ped_ts); tsp(sub_ped_ts)
 
 ???
 
+Let's take a closer look at the `ts` class.
+
+The `class` function tells us what class the object is.
+
+Instead of storing the time index as a column, it's being stored as meta info
+which is `tsp` attribute.
+
+The advantage for using a `ts` data class is 1.
+
+The second is as the time attributes are stored as metadata, for some specialist
+methods like, they know how to automatically handle them 
+
+However, `ts` class isn't data centric, not flexible for data analysis and vis.
+
 hard to handle missing values
 
 ---
@@ -278,6 +368,20 @@ background-size: 85%
 ]
 .right-column[
 ]
+
+???
+
+The remedy is converting the wide format to the long data.
+
+The top data table is what we have, wide
+
+gather the headers to one key variable, and the counts to the value variable.
+
+By having more than 40 columns, we have four vars to work with. Looking at this
+long form, what are the variables become clearer compared to the wide format.
+Each variable forms a column.
+
+from tidyr
 
 ---
 
@@ -325,6 +429,10 @@ ped_long
 ```
 
 ]
+
+???
+
+Any questions so far?
 
 ---
 
@@ -623,6 +731,11 @@ class: inverse middle center
 
 # Grammar of graphics
 
+???
+
+* basic/good understanding of tidy data structure
+* bc it builds a solid foundation to statistical vis.
+
 ---
 
 class: middle
@@ -637,10 +750,47 @@ class: middle
   is defined as 
   `$$\bar{X} = \frac{1}{n} \sum_{i = 1}^{n} X_{i} \qquad S_{n-1} = \frac{1}{n-1} \sum_{i = 1}^{n} \left(X_i - \bar{X} \right)^2.$$`
 
+???
+
+we're going to use some short but comprehensive vocabulary to describe different
+sorts of graphs.
+
 ---
 
 .left-column[
 ## More on pedestrian data
+### - revisit
+]
+.right-column[
+
+```r
+ped_long
+```
+
+```
+#&gt; # A tibble: 31,992 x 5
+#&gt;          Date  Hour   Sensor_Name Counts
+#&gt;        &lt;date&gt; &lt;int&gt;         &lt;chr&gt;  &lt;int&gt;
+#&gt;  1 2017-03-01     0 State Library    140
+#&gt;  2 2017-03-01     1 State Library     64
+#&gt;  3 2017-03-01     2 State Library     29
+#&gt;  4 2017-03-01     3 State Library     13
+#&gt;  5 2017-03-01     4 State Library     13
+#&gt;  6 2017-03-01     5 State Library     31
+#&gt;  7 2017-03-01     6 State Library     92
+#&gt;  8 2017-03-01     7 State Library    327
+#&gt;  9 2017-03-01     8 State Library    908
+#&gt; 10 2017-03-01     9 State Library    775
+#&gt; # ... with 31,982 more rows, and 1 more variables:
+#&gt; #   Date_Time &lt;dttm&gt;
+```
+]
+
+---
+
+.left-column[
+## More on pedestrian data
+### - revisit
 ### - `ggplot2`
 ]
 .right-column[
@@ -649,7 +799,7 @@ class: middle
 data: ped_long
 layer:
     mapping: x = Date_Time, y = Counts
-    geom: line
+    geom: line, point
 facet: Sensor_Name
 ```
 
@@ -658,19 +808,25 @@ facet: Sensor_Name
 ```r
 ggplot(ped_long, aes(x = Date_Time, y = Counts)) +
   geom_line() +
+  geom_point() +
   facet_grid(Sensor_Name ~ ., scale = "free_y")
 ```
 ]
 
-
 ???
 
-as you can see, it provides short but comprehensive vocabulary for describing a plot.
+* `autoplot`: against time index
+* This is how we use graphic gramma to describe the plot
+* Start with a tidy dataset with clearly defined variables.
+* geom and other aes make the graph perceivable.
+* facet: trellis plots or lattice plots.
+* scale: local for comparing shapes instead of magnitudes.
 
 ---
 
 .left-column[
 ## More on pedestrian data
+### - revisit
 ### - `ggplot2`
 ]
 .right-column[
@@ -679,7 +835,7 @@ as you can see, it provides short but comprehensive vocabulary for describing a 
 data: ped_long
 layer:
     mapping: x = Date_Time, y = Counts, colour = Sensor_Name
-    geom: line
+    geom: line, point
 facet: Sensor_Name
 ```
 
@@ -688,14 +844,24 @@ facet: Sensor_Name
 ```r
 ggplot(ped_long, aes(x = Date_Time, y = Counts)) +
   geom_line(aes(colour = Sensor_Name)) +
+  geom_point(aes(colour = Sensor_Name)) +
   facet_grid(Sensor_Name ~ ., scale = "free_y")
 ```
 ]
+
+???
+
+* colour is also the part of aes mapping.
+* not adding additional info in this case.
+* pedestrian data interesting and rich
+* southern x as an example to explore
+* seems that sx has distinctive patterns b/t weekdays and weekend
 
 ---
 
 .left-column[
 ## More on pedestrian data
+### - revisit
 ### - `ggplot2`
 ### - southern x 🚉
 ]
@@ -739,6 +905,7 @@ sx
 
 .left-column[
 ## More on pedestrian data
+### - revisit
 ### - `ggplot2`
 ### - southern x 🚉
 ]
@@ -764,6 +931,7 @@ ggplot(sx, aes(Hour, Counts, group = Date)) +
 
 .left-column[
 ## More on pedestrian data
+### - revisit
 ### - `ggplot2`
 ### - southern x 🚉
 ]
@@ -785,10 +953,16 @@ ggplot(sx, aes(Hour, Counts, group = Date)) +
 ```
 ]
 
+???
+
+* weekday and weekends are not yet sufficient.
+* ?what day would make this behave like a weekend. ---&gt; labour day
+
 ---
 
 .left-column[
 ## More on pedestrian data
+### - revisit
 ### - `ggplot2`
 ### - southern x 🚉
 ]
@@ -804,6 +978,7 @@ Expertise and Google in action
 
 .left-column[
 ## More on pedestrian data
+### - revisit
 ### - `ggplot2`
 ### - southern x 🚉
 ]
@@ -848,6 +1023,7 @@ head(sx_more)
 
 .left-column[
 ## More on pedestrian data
+### - revisit
 ### - `ggplot2`
 ### - southern x 🚉
 ]
@@ -869,10 +1045,15 @@ ggplot(sx_more, aes(Hour, Counts, group = Date)) +
 ```
 ]
 
+???
+
+rose plot
+
 ---
 
 .left-column[
 ## More on pedestrian data
+### - revisit
 ### - `ggplot2`
 ### - southern x 🚉
 ]
