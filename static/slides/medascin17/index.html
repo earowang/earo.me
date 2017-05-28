@@ -261,104 +261,6 @@ I'll explain what I mean by wide and long later.
 
 ---
 
-.left-column[
-## Melbourne pedestrian data 🚶‍♀️
-### - sensor data
-### - sensor map
-### - hourly counts
-### - `autoplot`
-]
-.right-column[
-
-```r
-ped_ts &lt;- ts(ped_2017[, -c(1, 2)], frequency = 24)
-selected_id &lt;- c(1, 10, 18, 19, 24)
-sub_ped_ts &lt;- ped_ts[, selected_id]
-autoplot(sub_ped_ts, facet = TRUE)
-```
-
-&lt;img src="figure/ped-ts-1.svg" style="display: block; margin: auto;" /&gt;
-]
-
-???
-
-The first tool I use to visualise the traffic pattern is `autoplot`.
-
-explain the code
-
-`autoplot` automatically gives you a conventional time series line plot. Bc `autoplot` recognises
-the input as a `ts` class. So it knows how to deal with it by plotting the obs
-against the time index. As you can see, different patterns for differnt locations.
-
-`autoplot` gives a nice line graph due to the `ts` object, but it also becomes a 
-limiting factor to try other types of plots because of the `ts` object.
-
----
-
-.left-column[
-## Melbourne pedestrian data 🚶‍♀️
-### - sensor data
-### - sensor map
-### - hourly counts
-### - `autoplot`
-### - pros &amp; cons
-]
-.right-column[
-
-A `ts` object associates with a `tsp` attribute as metadata.
-
-
-```r
-class(sub_ped_ts); tsp(sub_ped_ts)
-```
-
-```
-#&gt; [1] "mts"    "ts"     "matrix"
-```
-
-```
-#&gt; [1]  1.00000 31.95833 24.00000
-```
-
-.pull-left[
-**Pros:**
-
-* to automatically create the index variable for equally spaced time series
-* to retrieve the structure of information at run time for specialist methods
-  (e.g. `auto.arima` or `ets`)
-]
-.pull-right[
-**Cons:**
-
-* hard to add other complementary variables (e.g. longitudes and latitudes) 
-  to the data
-* hard to dissect temporal components and examine different seasonal patterns 
-  (e.g. b/t weekdays &amp; weekends)
-]
-]
-
-???
-
-Let's take a closer look at the `ts` class.
-
-The `class` function tells us what class the object is.
-
-Rather than a matrix, the `tsp` attributes stored as meta info make it to a `ts` object.
-
-The advantage for using a `ts` data class is 1.
-
-The second is as the time attributes are stored as metadata, for some specialist
-methods like, they know how to automatically handle them 
-
-However, `ts` class isn't data centric, not flexible for data analysis and vis.
-
-hard to handle missing values
-
-It's certainly not my goal to teach you how to use `autoplot`. We're going to
-do more that beyond what `autoplot` can do.
-
----
-
 background-image: url(img/verb.001.png)
 background-size: 85%
 
@@ -367,8 +269,6 @@ background-size: 85%
 ### - sensor data
 ### - sensor map
 ### - hourly counts
-### - `autoplot`
-### - pros &amp; cons
 ### - tidy data
 ]
 .right-column[
@@ -395,8 +295,6 @@ from tidyr
 ### - sensor data
 ### - sensor map
 ### - hourly counts
-### - `autoplot`
-### - pros &amp; cons
 ### - tidy data
 ]
 .right-column[
