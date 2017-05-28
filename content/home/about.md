@@ -19,7 +19,7 @@ weight = 1
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Business Analytics"
+  course = "PhD"
   institution = "Monash University"
   year = 2016
 
