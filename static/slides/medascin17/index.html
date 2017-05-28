@@ -745,6 +745,7 @@ rank
 * convert wide to long
 * spit to two data tables
 * Follows the third point of the tidy data principles: Each type of observational unit forms a table.
+* 40 mins get done
 
 ---
 
@@ -767,8 +768,8 @@ class: middle
 * In 2008, `ggplot2` by Hadley Wickham
 * A conceptual framework for mapping variables to graphical elements
 * The analogue of doing a functional mapping of random variables. For example,
-  `\(n\)` independent and identically distributed RVs `\(X_1, \ldots, X_n\)`, the mean
-  is defined as 
+  `\(n\)` independent and identically distributed RVs `\(X_1, \ldots, X_n\)`, the mean and
+  the standard deviation are defined as 
   `$$\bar{X} = \frac{1}{n} \sum_{i = 1}^{n} X_{i} \qquad S_{n-1} = \frac{1}{n-1} \sum_{i = 1}^{n} \left(X_i - \bar{X} \right)^2.$$`
 
 ???
@@ -952,6 +953,8 @@ ggplot(sx, aes(Hour, Counts, group = Date)) +
 
 * explain activities at some time points.
 * more spread out in afternoon than in morning.
+* All the daily series are overlaid each other and use color to differentiate
+  weekday and weekends.
 
 ---
 
@@ -1080,7 +1083,7 @@ ggplot(sx_more, aes(Hour, Counts, group = Date)) +
 grammar remains the same but using transformed data
 
 I've just showed you how to use the graphics to explore the data. Notice something
-unexpected and use your expertise or other resouces to explain and produce another
+unexpected and use your expertise or other resources to explain and produce another
 graph.
 
 Has anyone noticed there's another weired day that I haven't explained/exploited?
@@ -1124,7 +1127,7 @@ the two plots is simply one linear and one polar coordinates.
 polar: periodic behaviour
 
 When you need to decide which plot you should pick up for you presentation, it
-should be conducted under the statitical hyphothesis testing framework, known
+should be conducted under the statistical hypothesis testing framework, known
 as visual inference. 
 
 Be aware of that it provides scientific tools to help with which display is more
@@ -1209,6 +1212,8 @@ facet: MONTH
 ???
 
 Let them do the lab exercise first without explaining the grammar.
+
+70 mins get done
 
 ---
 
