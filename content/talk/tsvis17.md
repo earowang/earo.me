@@ -1,6 +1,6 @@
 +++
 date = "2017-05-29"
-title = "Tidy data and statistical visualisation to support exploration of temporal data with R (Upcoming)"
+title = "Tidy data and statistical visualisation to support exploration of temporal data with R"
 abstract = ""
 abstract_short = ""
 event = "Melbourne Data Science Week 2017"
@@ -15,3 +15,5 @@ url_code = "https://github.com/earowang/medascin17-tsvis"
 url_video = ""
 
 +++
+
+It's a one-day workshop with Rob J Hyndman on Time Series in R, forecasting and visualisation, part of Melbourne Data Science Week 2017. The materials about the workshop are host on [here][http://robjhyndman.com/forecasting-medascin].
