@@ -16,4 +16,4 @@ url_video = ""
 
 +++
 
-It's a one-day workshop with Rob J Hyndman on Time Series in R, forecasting and visualisation, part of Melbourne Data Science Week 2017. The materials about the workshop are host on [here][http://robjhyndman.com/forecasting-medascin].
+It's a one-day workshop with Rob J Hyndman on Time Series in R, forecasting and visualisation, part of Melbourne Data Science Week 2017. The materials about the workshop are host on [here](http://robjhyndman.com/forecasting-medascin).
