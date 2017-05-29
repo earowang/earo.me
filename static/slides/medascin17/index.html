@@ -878,7 +878,7 @@ facet: Wday
 
 ```r
 ggplot(sx, aes(Hour, Counts, group = Date)) +
-  geom_line(aes(colour = Wday)) +
+  geom_line() +
   facet_wrap(~ Wday, ncol = 2)
 ```
 ]
@@ -975,6 +975,7 @@ facet: Wday
 
 ```r
 ggplot(sx_more, aes(Hour, Counts, group = Date)) +
+  geom_line() +
   facet_wrap(~ Wday, ncol = 2)
 ```
 ]
@@ -1012,6 +1013,7 @@ coord: polar
 
 ```r
 ggplot(sx_more, aes(Hour, Counts, group = Date)) +
+  geom_line() +
   facet_wrap(~ Wday, ncol = 2) +
   coord_polar()
 ```
