@@ -10,7 +10,7 @@ location = "Melbourne, Australia"
 selected = false
 math = false
 
-url_slides = "http://earo.me/slides/wombat17/"
+url_slides = "http://slides.earo.me/wombat17/"
 url_code = "https://github.com/earowang/wombat17-sketch"
 url_video = ""
 

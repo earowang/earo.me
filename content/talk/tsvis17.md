@@ -10,7 +10,7 @@ location = "Melbourne, Australia"
 selected = false
 math = true
 
-url_slides = "http://earo.me/slides/medascin17/"
+url_slides = "http://slides.earo.me/medascin17/"
 url_code = "https://github.com/earowang/medascin17-tsvis"
 url_video = ""
 

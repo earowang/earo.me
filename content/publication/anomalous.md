@@ -12,6 +12,6 @@ selected = true
 title = "Large-scale unusual time series detection"
 url_code = "https://github.com/robjhyndman/anomalous"
 url_doi = "https://doi.org/10.1109/ICDMW.2015.104"
-url_pdf = "pdf/icdm2015.pdf"
+url_pdf = "http://pub.earo.me/icdm2015.pdf"
 
 +++
