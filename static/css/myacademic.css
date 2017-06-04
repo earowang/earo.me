@@ -783,7 +783,8 @@ footer a#back_to_top i {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   background: transparent;
-  transform: scale(1.2);
+  color: rgb(165, 15, 21);
+  transform: translateY(-2px);
 }
 
 /*************************************************
