@@ -53,6 +53,7 @@ body {
 @media screen and (max-width: 1200px) { /* Match max-width of .nav-bar query. */
   body {
     margin-top: 51px; /* Offset body content by navbar height. */
+    font-size: 20px;
   }
 }
 
@@ -163,6 +164,13 @@ code {
 pre {
   margin: 0 0 1rem 0;
   overflow: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  pre,
+  code {
+    font-size: 0.5rem;
+  }
 }
 
 /* Quotes */
@@ -336,6 +344,19 @@ ul.ul-edu li .description p.course {
 ul.ul-edu li .description p.institution {
   font-size: 0.85rem;
   color: rgba(0,0,0,0.6);
+}
+
+@media screen and (max-width: 1200px) {
+  ul.ul-interests li {
+    font-size: 0.8rem;
+  }
+  ul.ul-edu li .description p.course {
+    font-size: 0.8rem;
+  }
+  ul.ul-edu li .description p.institution {
+    font-size: 0.65rem;
+    color: rgba(0,0,0,0.6);
+  }
 }
 
 /*************************************************
@@ -766,6 +787,18 @@ footer a:hover {
 .site-footer,
 footer a#back_to_top i {
   color: #899596;
+}
+
+@media screen and (max-width: 1200px) {
+  footer p {
+    font-size: 0.75rem;
+    text-align: center;
+  }
+  .site-footer,
+  footer a#back_to_top i {
+    font-size: 0.75rem;
+    color: #899596;
+  }
 }
 
 /*************************************************
