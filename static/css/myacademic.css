@@ -116,7 +116,7 @@ h3.article-title a:hover {
 
 a:hover,
 a:focus {
-  color: #005181;
+  outline: 0;
 }
 
 img,
@@ -229,7 +229,7 @@ blockquote p:last-child {
 }
 
 .home-section:nth-of-type(even) {
-  background-color: rgba(231, 225, 239, 0.3);
+  background-color: rgb(248, 248, 251);
 }
 
 @media screen and (max-width: 768px) {
@@ -751,12 +751,16 @@ footer {
   margin: 0;
   padding: 38px 0 18px 0;
   width: 100%;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgb(18, 11, 49);
 }
 
 footer p {
   font-size: 1.05rem;
   text-align: center;
+}
+
+footer a:hover {
+  color: rgb(165, 15, 21);
 }
 
 .site-footer,
@@ -858,12 +862,16 @@ footer a#back_to_top i {
 }
 
 .navbar-default {
-  background: #fff;
+  background: rgb(18, 11, 49);
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11)
 }
 
 nav#navbar-main li {
   font-size: 20px;
+}
+
+nav#navbar-main a:hover {
+  color: rgb(168, 166, 179);
 }
 
 .navbar-default .navbar-nav>li>a,
@@ -872,14 +880,14 @@ nav#navbar-main li {
   white-space: nowrap;
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
-  color: #34495e;
-  font-weight: 600;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
 }
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-  color: rgb(165, 15, 21);
+  color: rgb(240, 156, 56);
   font-weight: 700;
   background-color: transparent !important; /* Override Bootstrap. */
 }
@@ -905,7 +913,6 @@ nav#navbar-main li {
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:focus,
 .dropdown-menu > .active > a:hover {
-  color: #fff;
   text-decoration: none;
   background-color: #0095eb;
   outline: 0;
@@ -914,7 +921,7 @@ nav#navbar-main li {
 .navbar-default .navbar-brand {
   text-transform: capitalize;
   font-size: 1.2em;
-  color: #2b2b2b;
+  color: rgb(255, 255, 255);
 }
 
 @media screen and (max-width: 1200px) {
@@ -996,7 +1003,6 @@ nav#navbar-main li {
 
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
-    color: inherit;
     background-color: transparent;
   }
 
