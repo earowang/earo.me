@@ -90,7 +90,7 @@ h1 {
   padding: 3px;
   font-size: 1.65rem;
   display: table-cell;
-  border-bottom: 5px solid rgb(165, 15, 21);
+  border-bottom: 5px solid rgb(223, 73, 66);
 }
 h2 {
   padding-bottom: 5px;
@@ -110,14 +110,14 @@ h4, h5, h6 {
 
 a,
 h3.article-title a:hover {
-  color: rgb(165, 15, 21);
+  color: rgb(223, 73, 66);
   text-decoration: none;
   transition: color 0.6s ease;
 }
 
 a:hover,
 a:focus {
-  color: rgb(165, 15, 21);
+  color: rgb(223, 73, 66);
   text-decoration: underline;
 }
 
@@ -484,7 +484,7 @@ article {
 }
 
 .article-metadata a:hover {
-  color: rgb(165, 15, 21);
+  color: rgb(223, 73, 66);
 }
 
 .article-list-item {
@@ -782,7 +782,7 @@ footer p {
 }
 
 footer a, footer a:hover {
-  color: rgb(240, 156, 56);
+  color: rgb(223, 73, 66);
 }
 
 .site-footer,
@@ -807,8 +807,8 @@ footer a#back_to_top i {
  **************************************************/
 
 .btn-primary {
-  border-color: rgb(165, 15, 21);
-  background: rgb(165, 15, 21);
+  border-color: rgb(223, 73, 66);
+  background: rgb(223, 73, 66);
 }
 
 .btn-primary:hover,
@@ -817,7 +817,7 @@ footer a#back_to_top i {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   background: transparent;
-  color: rgb(165, 15, 21);
+  color: rgb(223, 73, 66);
   transform: translateY(-2px);
 }
 
@@ -860,8 +860,8 @@ footer a#back_to_top i {
 }
 
 .btn-primary.btn-outline {
-  color: rgb(165, 15, 21);
-  border-color: rgb(165, 15, 21);
+  color: rgb(223, 73, 66);
+  border-color: rgb(223, 73, 66);
 }
 
 .btn-success.btn-outline {
@@ -885,7 +885,7 @@ footer a#back_to_top i {
 .btn-info.btn-outline:hover,
 .btn-warning.btn-outline:hover,
 .btn-danger.btn-outline:hover {
-  color: rgb(165, 15, 21);
+  color: rgb(223, 73, 66);
 }
 
 /*************************************************
@@ -922,7 +922,7 @@ nav#navbar-main a:hover {
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-  color: rgb(240, 156, 56);
+  color: rgb(223, 73, 66);
   font-weight: 700;
   background-color: transparent !important; /* Override Bootstrap. */
 }
