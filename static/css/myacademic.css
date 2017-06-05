@@ -117,7 +117,8 @@ h3.article-title a:hover {
 
 a:hover,
 a:focus {
-  outline: 0;
+  color: rgb(165, 15, 21);
+  text-decoration: underline;
 }
 
 img,
@@ -534,7 +535,7 @@ article {
  **************************************************/
 
 .pub-icon {
-  color: #03396c;
+  color: rgb(18, 11, 49);
   font-size: 1.81em;
   padding-top: 6px;
 }
@@ -780,8 +781,8 @@ footer p {
   text-align: center;
 }
 
-footer a:hover {
-  color: rgb(165, 15, 21);
+footer a, footer a:hover {
+  color: rgb(240, 156, 56);
 }
 
 .site-footer,
