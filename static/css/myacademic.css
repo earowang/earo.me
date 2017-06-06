@@ -926,7 +926,19 @@ nav#navbar-main a:hover {
   background-color: transparent !important; /* Override Bootstrap. */
 }
 
-.navbar-brand,
+.nav-brand {
+  float: left;
+  margin-top: -11px;
+  transition: transform 150ms ease-out;
+}
+
+.nav-brand img {
+  display: block;
+  max-height: 40px;
+  width: auto;
+  border-radius: 50%;
+}
+
 .navbar-nav li a {
   height: inherit;
   line-height: 50px;
@@ -952,7 +964,7 @@ nav#navbar-main a:hover {
   outline: 0;
 }
 
-.navbar-default .navbar-brand {
+.navbar-default {
   text-transform: capitalize;
   font-size: 1.2em;
   color: rgb(255, 255, 255);
@@ -963,7 +975,23 @@ nav#navbar-main a:hover {
     min-height: 50px !important;
   }
 
-  .navbar-brand,
+  .nav-brand {
+    float: left;
+    margin-top: -11px;
+    transition: transform 150ms ease-out;
+  }
+
+  .nav-brand:hover {
+    transform: scale(1.1);
+  }
+
+  .nav-brand img {
+    display: block;
+    max-height: 40px;
+    width: auto;
+    border-radius: 50%;
+  }
+
   .navbar-nav li a {
     height: inherit;
     line-height: 40px;

@@ -30,6 +30,9 @@ defaultContentLanguageInSubdir = false
   phone = ""
   skype = ""
   telegram = ""
+  logo_url = "icon.png"
+  logo_width = 50
+  logo_height = 50
 
   # Enable Keybase in Contact section by entering your keybase.io username.
   keybase = ""
