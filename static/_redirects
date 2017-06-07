@@ -3,5 +3,3 @@
 /lab/*                  https://lab.earo.me/:splat
 https://earowang.netlify.com/*  https://earo.me/:splat  301!
 http://earowang.netlify.com/*   https://earo.me/:splat  301!
-https://earoblog.netlify.com/*  https://blog.earo.me/:splat  301!
-http://earoblog.netlify.com/*   https://blog.earo.me/:splat  301!
