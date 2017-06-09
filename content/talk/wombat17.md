@@ -16,4 +16,4 @@ url_video = ""
 
 +++
 
-It's my first lightning talk ever at Wombat 2017.
+It's my first lightning talk ever at Wombat 2017. It takes a while to fully load the slides due to some high-res background photos.
