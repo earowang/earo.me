@@ -6,7 +6,7 @@ date = "2017-05-10"
 title = "sugrrants (dev)"
 
 # Project summary to display on homepage.
-summary = "Provide supporting graphs with R for analysing time series."
+summary = "Provide supporting graphics with R for analysing time series."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""
@@ -16,7 +16,7 @@ image_preview = ""
 tags = ["r"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://github.com/earowang/sugrrants"
+external_link = "https://pkg.earo.me/sugrrants"
 
 # Does the project detail page use math formatting?
 math = false
