@@ -36,7 +36,7 @@ Hi, I'm Earo. I'm a second-year Ph.D. student in Department of Econometrics and 
 ```{r}
 print(earowang)
 #> $uses
-#> [1] "r"    "rmd"  "vim"  "git"  "zsh"
+#> [1] "r"  "rmd"  "vim"  "git"  "zsh"  "tmux"
 #> 
 #> $likes
 #> [1] "flat white ☕️"                "four pillars gin w tonic 🍸"
