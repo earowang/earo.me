@@ -16,7 +16,7 @@ image_preview = ""
 tags = ["r"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://pkg.earo.me/sugrrants"
+external_link = "http://pkg.earo.me/sugrrants"
 
 # Does the project detail page use math formatting?
 math = false
