@@ -31,7 +31,7 @@ weight = 1
  
 +++
 
-Hi, I'm Earo. I'm a second-year Ph.D. student in Department of Econometrics and Business Statistics at Monash University. My research project focuses on tidy data structure and statistical visualisation to support exploration and modeling of temporal-context data, supervised by [Di Cook](http://dicook.org) and [Rob J Hyndman](http://robjhyndman.com).
+Hi, I'm Earo. I'm currently grinding my Ph.D. on statistical visualisation of temporal-context data at Monash University. I'm also [#rstats](https://cran.r-project.org) user and developer. I love lightweight and elegant tools, for example, rmarkdown just works as a swiss army knife that powers my [blog](https://blog.earo.me)/slides/research papers.
 
 ```{r}
 print(earowang)
