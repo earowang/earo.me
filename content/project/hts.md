@@ -1,9 +1,9 @@
 +++
 # Date this page was created.
-date = "2017-06-18"
+date = "2017-06-22"
 
 # Project title.
-title = "hts v5.1.0"
+title = "hts v5.1.4"
 
 # Project summary to display on homepage.
 summary = "Methods for analysing and forecasting hierarchical and grouped time series."
