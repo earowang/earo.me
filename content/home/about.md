@@ -31,7 +31,7 @@ weight = 1
  
 +++
 
-Hi, I'm Earo. I'm currently grinding my Ph.D. on statistical visualisation of temporal-context data at Monash University. I'm also [#rstats](https://cran.r-project.org) user and developer. I love lightweight and elegant tools, for example, rmarkdown just works as a swiss army knife that powers my [blog](https://blog.earo.me)/slides/research papers.
+Hi, I'm Earo. I'm currently grinding my Ph.D. on statistical visualisation of temporal-context data at Monash University. I'm also [#rstats](https://cran.r-project.org) user and developer. I love lightweight and elegant tools, for example, rmarkdown just works as a swiss army knife that powers my posts/slides/research papers.
 
 ```{r}
 print(earowang)
