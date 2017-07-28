@@ -6,7 +6,7 @@ date = "2017-07-21"
 title = "tsibble (dev)"
 
 # Project summary to display on homepage.
-summary = "Temporal data frames."
+summary = "The 'tsibble' provides and works with tidy temporal data."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""

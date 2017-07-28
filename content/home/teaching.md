@@ -17,5 +17,5 @@ weight = 4
 I'm a teaching associate for the following units at Monash University since 2014:
 
 * ETC3550: Applied forecasting for business and economics
-* ETC2420: Statistical methods for insurance
+* ETC2420: Statistical thinking
 * ETC1000: Business and economic statistics
