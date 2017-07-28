@@ -1,12 +1,12 @@
 +++
 # Date this page was created.
-date = "2017-07-28"
+date = "2017-07-21"
 
 # Project title.
-title = "sugrrants v0.1.0"
+title = "tsibble (dev)"
 
 # Project summary to display on homepage.
-summary = "Provides 'ggplot2' graphics for analysing time series data."
+summary = "Temporal data frames."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""
@@ -16,7 +16,7 @@ image_preview = ""
 tags = ["r"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "http://pkg.earo.me/sugrrants"
+external_link = "https://github.com/earowang/tsibble"
 
 # Does the project detail page use math formatting?
 math = false
