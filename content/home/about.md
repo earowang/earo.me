@@ -22,12 +22,12 @@ weight = 1
 [[education.courses]]
   course = "PhD"
   institution = "Monash University"
-  year = 2016
+  year = "Present"
 
 [[education.courses]]
   course = "BComm (Hons) in Econometrics"
   institution = "Monash University"
-  year = 2012
+  year = ""
  
 +++
 
