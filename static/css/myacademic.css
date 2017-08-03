@@ -535,8 +535,8 @@ article {
 
 .pub-icon {
   color: rgb(18, 11, 49);
-  font-size: 1.81em;
-  padding-top: 6px;
+  font-size: 1.2em;
+  /* padding-top: 6px; */
 }
 
 .pub-banner {
@@ -616,7 +616,7 @@ article {
 }
 
 #projects.home-section .project-summary {
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-bottom: 0.4rem;
 }
 

@@ -1,11 +1,12 @@
 +++
-# Date this page was created.
-date = "2017-08-01"
 
 # Project title.
-title = "rwalkr v0.1.0"
+title = "rwalkr"
 
 # Project summary to display on homepage.
+banner = """
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/rwalkr)](https://cran.r-project.org/package=rwalkr)
+"""
 summary = "Provides API to Melbourne pedestrian data in tidy data form."
 
 # Optional image to display on homepage (relative to `static/img/` folder).

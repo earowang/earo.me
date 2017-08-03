@@ -1,11 +1,12 @@
 +++
-# Date this page was created.
-date = "2016-04-27"
 
 # Project title.
-title = "anomalous (dev)"
+title = "anomalous"
 
 # Project summary to display on homepage.
+banner = """
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/anomalous)](https://cran.r-project.org/package=anomalous)
+"""
 summary = "Methods for detecting anomalous time series in feature space."
 
 # Optional image to display on homepage (relative to `static/img/` folder).

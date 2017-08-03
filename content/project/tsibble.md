@@ -1,11 +1,12 @@
 +++
-# Date this page was created.
-date = "2017-07-21"
 
 # Project title.
-title = "tsibble (dev)"
+title = "tsibble"
 
 # Project summary to display on homepage.
+banner = """
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/tsibble)](https://cran.r-project.org/package=tsibble)
+"""
 summary = "The 'tsibble' provides and works with tidy temporal data."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
