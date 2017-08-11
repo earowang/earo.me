@@ -27,7 +27,7 @@
 
             {{ range .Pages.ByDate.Reverse }}
             <li>
-              <i class="fa-li fa fa-comment-o" aria-hidden="true"
+              <i class="fa-li fa fa-group" aria-hidden="true"
                  style="color:#03396c;font-size:80%;padding-top:6px;"></i>
               {{ .Title }}
               <p>{{ partial "talk_links" (dict "content" . "is_list" 1) }}</p>
