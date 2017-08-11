@@ -10,7 +10,7 @@ publication = "Computational Statistics & Data Analysis **97**, 16-32"
 publication_short = "CSDA"
 selected = true
 title = "Fast computation of reconciled forecasts for hierarchical and grouped time series"
-url_code = "https://CRAN.R-project.org/package=hts"
+url_code = "https://github.com/earowang/hts/blob/master/R/recursive.R"
 url_doi = "http://dx.doi.org/10.1016/j.csda.2015.11.007"
 url_pdf = "http://pub.earo.me/hgts.pdf"
 
