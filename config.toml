@@ -165,14 +165,19 @@ defaultContentLanguageInSubdir = false
   weight = 3
 
 [[menu.main]]
-  name = "Software"
-  url = "#software"
+  name = "Teaching"
+  url = "#teaching"
   weight = 4
 
 [[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
+  name = "Experience"
+  url = "#experience"
   weight = 5
+
+[[menu.main]]
+  name = "Software"
+  url = "#software"
+  weight = 6
 
 # Taxonomies.
 [taxonomies]

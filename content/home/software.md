@@ -10,7 +10,7 @@ subtitle = "R packages"
 widget = "projects"
 
 # Order that this section will appear in.
-weight = 3
+weight = 5
 
 # View.
 # Customize how projects are displayed.
