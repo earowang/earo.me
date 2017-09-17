@@ -15,4 +15,4 @@ weight = 4
 +++
 
 * **Software developer**, *Google Summer of Code*, Jun--Aug 2017 
-* **Research Assistant**, *Professor Rob J. Hyndman*, Nov 2013--Feb 2014
+* **Research Assistant**, *Professor Rob J. Hyndman*, Nov 2013--Aug 2015
