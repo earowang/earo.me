@@ -7,7 +7,7 @@ title = "tsibble"
 banner = """
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/tsibble)](https://cran.r-project.org/package=tsibble)
 """
-summary = "The 'tsibble' provides and works with tidy temporal data."
+summary = "The 'tsibble' provides tools to work with tidy temporal data."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""
