@@ -1266,7 +1266,7 @@ ul.timeline li .data .text {
 	font-size: 14px;
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 1200px) {
 	ul.timeline {
     margin: 0;
     border-left: none;
