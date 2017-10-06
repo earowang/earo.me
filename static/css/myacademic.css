@@ -1266,3 +1266,24 @@ ul.timeline li .data .text {
 	font-size: 14px;
 }
 
+@media (max-width: 500px) {
+	ul.timeline {
+    margin: 0;
+    border-left: none;
+  }
+
+  ul.timeline .circle {
+    display: none;
+  }
+
+  ul.timeline .data {
+    margin: 0 !important;
+    margin-bottom: 10px !important;
+    padding-top: 65px !important;
+  }
+
+  ul.timeline .date {
+    margin-left: 0 !important;
+  }
+
+}
