@@ -3,17 +3,20 @@
 
 {{ if $is_list }}
 <a class="btn btn-primary btn-outline btn-xs" href="{{ $.Permalink }}">
-  {{ i18n "btn_details" }}
+  <i class="fa fa-link" aria-hidden="true"></i>
+  <!-- {{ i18n "btn_details" }} -->
 </a>
 {{ end }}
 {{ with $.Params.url_slides }}
 <a class="btn btn-primary btn-outline{{ if $is_list }} btn-xs{{end}}" href="{{ . | absURL }}">
-  {{ i18n "btn_slides" }}
+  <i class="fa fa-television" aria-hidden="true"></i>
+  <!-- {{ i18n "btn_slides" }} -->
 </a>
 {{ end }}
 {{ with $.Params.url_code }}
 <a class="btn btn-primary btn-outline{{ if $is_list }} btn-xs{{end}}" href="{{ . | absURL }}">
-  {{ i18n "btn_code" }}
+  <!-- {{ i18n "btn_code" }} -->
+  <i class="fa fa-code" aria-hidden="true"></i>
 </a>
 {{ end }}
 {{ with $.Params.url_pdf }}

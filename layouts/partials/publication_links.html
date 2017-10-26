@@ -3,22 +3,25 @@
 
 {{ if $is_list }}
 <a class="btn btn-primary btn-outline btn-xs" href="{{ $.Permalink }}">
-  {{ i18n "btn_details" }}
+  <i class="fa fa-link" aria-hidden="true"></i>
+  <!-- {{ i18n "btn_details" }} -->
 </a>
 {{ end }}
 {{ with $.Params.url_doi }}
 <a class="btn btn-primary btn-outline{{ if $is_list }} btn-xs{{end}}" href="{{ . | absURL }}">
-  {{ i18n "btn_doi" }}
+  <i class="ai ai-doi-square" aria-hidden="true"></i>
 </a>
 {{ end }}
 {{ with $.Params.url_pdf }}
 <a class="btn btn-primary btn-outline{{ if $is_list }} btn-xs{{end}}" href="{{ . | absURL }}">
-  {{ i18n "btn_pdf" }}
+  <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+  <!-- {{ i18n "btn_pdf" }} -->
 </a>
 {{ end }}
 {{ with $.Params.url_slides }}
 <a class="btn btn-primary btn-outline{{ if $is_list }} btn-xs{{end}}" href="{{ . | absURL }}">
-  {{ i18n "btn_slides" }}
+  <i class="fa fa-slideshare" aria-hidden="true"></i>
+  <!-- {{ i18n "btn_slides" }} -->
 </a>
 {{ end }}
 {{ with $.Params.url_video }}
@@ -28,7 +31,8 @@
 {{ end }}
 {{ with $.Params.url_code }}
 <a class="btn btn-primary btn-outline{{ if $is_list }} btn-xs{{end}}" href="{{ . | absURL }}">
-  {{ i18n "btn_code" }}
+  <i class="fa fa-code" aria-hidden="true"></i>
+  <!-- {{ i18n "btn_code" }} -->
 </a>
 {{ end }}
 {{ with $.Params.url_dataset }}

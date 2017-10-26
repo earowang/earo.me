@@ -859,9 +859,11 @@ footer a#back_to_top i {
 }
 
 .btn-primary.btn-outline {
+  font-size: 19px;
   color: rgb(223, 73, 66);
   border-color: rgb(223, 73, 66);
   border-radius: 3.5px;
+  border: none;
 }
 
 .btn-success.btn-outline {
