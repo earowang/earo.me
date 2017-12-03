@@ -179,6 +179,11 @@ defaultContentLanguageInSubdir = false
   url = "#software"
   weight = 6
 
+[[menu.main]]
+  name = "J4F"
+  url = "#j4f"
+  weight = 7
+
 # Taxonomies.
 [taxonomies]
   tag = "tags"
