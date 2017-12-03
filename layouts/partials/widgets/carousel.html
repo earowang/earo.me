@@ -1,0 +1,21 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
+<!-- carousel widget -->
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
+    {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
+  </div>
+  <div class="owl-carousel owl-theme">
+    {{ range $carousel := where $.Data.Pages "Type" "carousel" }}
+    <div class="item">
+      <div class="col-xs-12 col-md-8">
+        {{ with $carousel.Params.image }}
+        <img src="{{ "/img/carousel/" | relURL }}{{ . }}" alt="" class="img-responsive">
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
