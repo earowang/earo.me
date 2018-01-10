@@ -7,7 +7,7 @@ title = "tsibble"
 banner = """
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/tsibble)](https://cran.r-project.org/package=tsibble)
 """
-summary = "The 'tsibble' provides tools to work with tidy temporal data."
+summary = "Tidy temporal data frames and tools."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""
@@ -17,7 +17,7 @@ image_preview = ""
 tags = ["r"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://github.com/earowang/tsibble"
+external_link = "http://pkg.earo.me/tsibble/"
 
 # Does the project detail page use math formatting?
 math = false
