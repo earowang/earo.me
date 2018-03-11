@@ -32,7 +32,7 @@
 html {
   font-family: 'Amiri', serif;
   font-size: 24px;
-  color: rgba(0,0,0,0.8);
+  color: #000000cc;
   line-height: 1.65;
 }
 @media screen and (min-width: 58em) {
@@ -90,7 +90,7 @@ h1 {
   padding: 3px;
   font-size: 1.65rem;
   display: table-cell;
-  border-bottom: 5px solid rgb(223, 73, 66);
+  border-bottom: 5px solid #df4942;
 }
 h2 {
   padding-bottom: 5px;
@@ -110,14 +110,14 @@ h4, h5, h6 {
 
 a,
 h3.article-title a:hover {
-  color: rgb(223, 73, 66);
+  color: #df4942;
   text-decoration: none;
   transition: color 0.6s ease;
 }
 
 a:hover,
 a:focus {
-  color: rgb(223, 73, 66);
+  color: #df4942;
   text-decoration: underline;
 }
 
@@ -226,7 +226,7 @@ blockquote p:last-child {
 }
 
 .home-section {
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   padding: 78px 0 78px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s;
@@ -238,7 +238,7 @@ blockquote p:last-child {
 }
 
 .home-section:nth-of-type(even) {
-  background-color: rgb(248, 248, 251);
+  background-color: #f8f8fb;
 }
 
 @media screen and (max-width: 768px) {
@@ -343,7 +343,7 @@ ul.ul-edu li .description p.course {
 
 ul.ul-edu li .description p.institution {
   font-size: 0.85rem;
-  color: rgba(0,0,0,0.6);
+  color: #00000099;
 }
 
 @media screen and (max-width: 1200px) {
@@ -355,7 +355,7 @@ ul.ul-edu li .description p.institution {
   }
   ul.ul-edu li .description p.institution {
     font-size: 0.65rem;
-    color: rgba(0,0,0,0.6);
+    color: #00000099;
   }
 }
 
@@ -483,7 +483,7 @@ article {
 }
 
 .article-metadata a:hover {
-  color: rgb(223, 73, 66);
+  color: #df4942;
 }
 
 .article-list-item {
@@ -534,7 +534,7 @@ article {
  **************************************************/
 
 .pub-icon {
-  color: rgb(18, 11, 49);
+  color: #120b31;
   font-size: 1.2em;
   /* padding-top: 6px; */
 }
@@ -657,7 +657,7 @@ article {
   overflow: hidden;
   text-overflow: ellipsis;
   background: #fff;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 2px 4px 0 #00000033;
   transition: all 0.2s ease-out;
 }
 
@@ -728,7 +728,7 @@ article {
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 #00000033;
 }
 
 .card:hover .card-image.hover-overlay:before {
@@ -772,7 +772,7 @@ footer {
   margin: 0;
   padding: 38px 0 18px 0;
   width: 100%;
-  background-color: rgb(18, 11, 49);
+  background-color: #120b31;
 }
 
 footer p {
@@ -781,7 +781,7 @@ footer p {
 }
 
 footer a, footer a:hover {
-  color: rgb(223, 73, 66);
+  color: #df4942;
 }
 
 .site-footer,
@@ -806,8 +806,8 @@ footer a#back_to_top i {
  **************************************************/
 
 .btn-primary {
-  border-color: rgb(223, 73, 66);
-  background: rgb(223, 73, 66);
+  border-color: #df4942;
+  background: #df4942;
 }
 
 .btn-primary:hover,
@@ -816,7 +816,7 @@ footer a#back_to_top i {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   background: transparent;
-  color: rgb(223, 73, 66);
+  color: #df4942;
   transform: translateY(-2px);
 }
 
@@ -840,12 +840,12 @@ footer a#back_to_top i {
 
 .btn-toolbar .btn.btn-primary:hover,
 .btn-toolbar .btn.btn-primary:focus {
-  background-color: rgba(0,149,235,0.6);
+  background-color: #0095eb99;
 }
 
 .btn-toolbar .btn.btn-primary:active,
 .btn-toolbar .btn.btn-primary.active {
-  background-color: rgba(0,89,175,1);
+  background-color: #0059af;
 }
 
 /*************************************************
@@ -860,8 +860,8 @@ footer a#back_to_top i {
 
 .btn-primary.btn-outline {
   font-size: 19px;
-  color: rgb(223, 73, 66);
-  border-color: rgb(223, 73, 66);
+  color: #df4942;
+  border-color: #df4942;
   border-radius: 3.5px;
   border: none;
 }
@@ -887,7 +887,7 @@ footer a#back_to_top i {
 .btn-info.btn-outline:hover,
 .btn-warning.btn-outline:hover,
 .btn-danger.btn-outline:hover {
-  color: rgb(223, 73, 66);
+  color: #df4942;
 }
 
 /*************************************************
@@ -899,8 +899,8 @@ footer a#back_to_top i {
 }
 
 .navbar-default {
-  background: rgb(18, 11, 49);
-  box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11)
+  background: #120b31;
+  box-shadow: 0 0.125rem 0.25rem 0 #0000001c
 }
 
 nav#navbar-main li {
@@ -908,7 +908,7 @@ nav#navbar-main li {
 }
 
 nav#navbar-main a:hover {
-  color: rgb(168, 166, 179);
+  color: #a8a6b3;
 }
 
 .navbar-default .navbar-nav>li>a,
@@ -917,14 +917,14 @@ nav#navbar-main a:hover {
   white-space: nowrap;
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   font-weight: 700;
 }
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-  color: rgb(223, 73, 66);
+  color: #df4942;
   font-weight: 700;
   background-color: transparent !important; /* Override Bootstrap. */
 }
@@ -970,7 +970,7 @@ nav#navbar-main a:hover {
 .navbar-default {
   text-transform: capitalize;
   font-size: 1.2em;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 
 @media screen and (max-width: 1200px) {
@@ -1175,7 +1175,7 @@ div.alert-warning p:first-child::before {
 }
 
 div.alert a {
-  color: rgba(255,255,255,0.9);
+  color: #ffffffe6;
   text-decoration: none;
   border-bottom: solid 1px #e4e4e4;
   transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
@@ -1183,7 +1183,7 @@ div.alert a {
 
 div.alert a:hover {
   border-bottom-color: transparent;
-  color: rgba(255,255,255,0.5) !important;
+  color: #ffffff80 !important;
 }
 
 .alert-note {
@@ -1216,8 +1216,8 @@ ul.timeline li .date {
 	width: 180px;
 	text-align: center;
   /* background-color: rgb(223, 73, 66); */
-  background-color: rgb(18, 11, 49);
-  color: rgb(255, 255, 255);
+  background-color: #120b31;
+  color: #ffffff;
 }
 
 ul.timeline li .circle {
@@ -1233,15 +1233,15 @@ ul.timeline li .circle {
 
 ul.timeline li.open .circle {
 	/*background-color: #03bb7a;*/
-	-webkit-box-shadow: 0px 2px 6px -3px rgba(68, 68, 68, 0.5);
-	box-shadow: 0px 2px 6px -3px rgba(68, 68, 68, 0.5);
+	-webkit-box-shadow: 0px 2px 6px -3px #44444480;
+	box-shadow: 0px 2px 6px -3px #44444480;
 }
 
 ul.timeline li .data {
 	background: #fdfdfd;
 	margin: 10px 0px 10px 80px;
 	border-left: 10px solid;
-  border-color: rgb(223, 73, 66);
+  border-color: #df4942;
   /* border-color: rgb(18, 11, 49); */
 	padding: 18px 20px;
 	font-size: 16px;
