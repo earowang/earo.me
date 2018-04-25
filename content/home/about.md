@@ -34,11 +34,10 @@ weight = 1
 Hi, I'm Earo. I'm currently doing my Ph.D. on statistical visualisation of temporal-context data at Monash University. I'm also [#rstats](https://cran.r-project.org) user and developer. I love lightweight and elegant tools, for example, rmarkdown just works as a swiss army knife that powers my posts, slides & research papers.
 
 ```{r}
-wang::earo %>% 
-  sample_n(size = 1) %>%
+wang::earo %>%
   glimpse()
-#> Observations: 1
+#> Observations: 3
 #> Variables: 2
-#> $ fav_author <chr> "太宰 治 Osamu Dazai"
-#> $ fav_book   <chr> "お伽草紙 Fairy Tales"
+#> $ advocates <chr> "open data", "open source", "reproducible research"
+#> $ uses      <chr> "rstats", "markdown", "neovim"
 ```
