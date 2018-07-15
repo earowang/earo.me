@@ -13,7 +13,7 @@ weight = 6
 
 +++
 
-* Altas of Living Austria & useR! 2018 data challenge first prize
+* Altas of Living Australia & useR! 2018 Data Challenge First Prize
 * 2018 ACEMS Business Analytics Prize
 * 2018 ASA Statistical Graphics Student Paper Award
 * Data61 Topup Postgraduate Research Scholarship
