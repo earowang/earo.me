@@ -5,7 +5,7 @@ title = "rwalkr"
 
 # Project summary to display on homepage.
 banner = """
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/rwalkr)](https://cran.r-project.org/package=rwalkr)
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/rwalkr)](https://cran.r-project.org/package=rwalkr)
 """
 summary = "Provides API to Melbourne pedestrian data in tidy data form."
 

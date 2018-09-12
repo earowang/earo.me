@@ -5,7 +5,7 @@ title = "hts"
 
 # Project summary to display on homepage.
 banner = """
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/hts)](https://cran.r-project.org/package=hts)
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/hts)](https://cran.r-project.org/package=hts)
 """
 summary = "Methods for analysing and forecasting hierarchical and grouped time series."
 

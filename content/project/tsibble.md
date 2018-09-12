@@ -5,7 +5,7 @@ title = "tsibble"
 
 # Project summary to display on homepage.
 banner = """
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/tsibble)](https://cran.r-project.org/package=tsibble)
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/tsibble)](https://cran.r-project.org/package=tsibble)
 """
 summary = "Tidy temporal data frames and tools."
 

@@ -5,7 +5,7 @@ title = "sugrrants"
 
 # Project summary to display on homepage.
 banner = """
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/sugrrants)](https://cran.r-project.org/package=sugrrants)
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/sugrrants)](https://cran.r-project.org/package=sugrrants)
 """
 summary = "Provides 'ggplot2' graphics for analysing time series data."
 
