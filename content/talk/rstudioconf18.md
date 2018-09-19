@@ -10,7 +10,7 @@ location = "San Diego, USA"
 selected = false
 math = false
 
-url_slides = "http://slides.earo.me/rstudioconf18/tsibble.pdf"
+url_slides = "http://slides.earo.me/rstudioconf18.pdf"
 url_code = "https://github.com/earowang/rstudioconf18"
 url_video = ""
 
