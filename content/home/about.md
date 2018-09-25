@@ -31,13 +31,6 @@ weight = 1
  
 +++
 
-Hi, I'm Earo. I'm currently doing my Ph.D. on statistical visualisation of temporal-context data at Monash University. I'm also [#rstats](https://cran.r-project.org) user and developer. I love lightweight and elegant tools, for example, rmarkdown just works as a swiss army knife that powers my posts, slides & research papers.
+Hi, I'm Earo and I'm doing my Ph.D. on tidy data structure and visualisation of temporal-context data at Monash University. I do reproducible research with rmarkdown, and develop open source [#rstats](http://cran.r-project.org) packages.
 
-```{r}
-wang::earo %>%
-  glimpse()
-#> Observations: 3
-#> Variables: 2
-#> $ advocates <chr> "open data", "open source", "reproducible research"
-#> $ uses      <chr> "rstats", "markdown", "neovim"
-```
+<img src="https://ghchart.rshah.org/756bb1/earowang" alt="Earo Wang Github Chart" />
