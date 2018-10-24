@@ -170,7 +170,7 @@ pre {
 @media screen and (max-width: 1200px) {
   pre,
   code {
-    font-size: 0.5rem;
+    font-size: 0.65rem;
   }
 }
 
@@ -197,6 +197,11 @@ blockquote p:last-child {
 @media screen and (max-width: 768px) {
   .space-below {
     margin-bottom: 10px;
+  }
+  h3 {
+    font-weight: 100;
+    margin-top: 1.5rem;
+    font-size: 1rem;
   }
 }
 
@@ -356,6 +361,9 @@ ul.ul-edu li .description p.institution {
   ul.ul-edu li .description p.institution {
     font-size: 0.65rem;
     color: #00000099;
+  }
+  .big-icon {
+    font-size: 1.2rem;
   }
 }
 
@@ -547,6 +555,7 @@ article {
 }
 
 .pub .pub-title {
+  padding-top: 20px;
   margin-bottom: 5px;
 }
 
@@ -1288,6 +1297,14 @@ ul.timeline li .data .text {
     margin-left: 0 !important;
   }
 
+}
+
+@media screen and (max-width: 768px) {
+  ul.timeline li .data .subject {
+    font-family: inherit;
+    font-size: 0.9rem;
+    color: inherit;
+  }
 }
 
 .owl-carousel img {

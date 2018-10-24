@@ -12,6 +12,11 @@
   <i class="ai ai-doi-square" aria-hidden="true"></i>
 </a>
 {{ end }}
+{{ with $.Params.url_arxiv }}
+<a class="btn btn-primary btn-outline{{ if $is_list }} btn-xs{{end}}" href="{{ . | absURL }}">
+  <i class="ai ai-arxiv" aria-hidden="true"></i>
+</a>
+{{ end }}
 {{ with $.Params.url_pdf }}
 <a class="btn btn-primary btn-outline{{ if $is_list }} btn-xs{{end}}" href="{{ . | absURL }}">
   <i class="fa fa-file-pdf-o" aria-hidden="true"></i>

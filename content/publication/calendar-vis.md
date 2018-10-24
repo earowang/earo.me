@@ -13,7 +13,17 @@ publication_short = ""
 selected = true
 title = "Calendar-based graphics for visualizing people’s daily schedules"
 url_code = "https://github.com/earowang/paper-calendar-vis"
+url_arxiv = "https://arxiv.org/abs/1810.09624"
 url_doi = ""
 url_pdf = "http://pub.earo.me/calendar-vis.pdf"
 
 +++
+
+```{txt}
+@misc{wang-calendarviz-2018,
+  Author = {Earo Wang and Dianne Cook and Rob J Hyndman},
+  Title = {Calendar-based graphics for visualizing people's daily schedules},
+  Year = {2018},
+  Eprint = {arXiv:1810.09624},
+}
+```
