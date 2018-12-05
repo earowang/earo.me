@@ -63,6 +63,12 @@ p {
   margin-bottom: 1rem;
 }
 
+p img {
+  height: 1.1rem;
+  width: auto;
+  display: inline;
+}
+
 /* Lists */
 ul, ol, dl {
   margin-top: 0;
