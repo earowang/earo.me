@@ -38,6 +38,5 @@ Thanks for visiting my web site, which is powered by [![Hugo](https://raw.github
 
 I am currently a PhD student supervised by [Di](http://www.dicook.org) and [Rob](http://robjhyndman.com) at Monash University. My PhD research focuses on tidy data structure and visualisation of temporal data, with open source implementation for [![R](https://www.r-project.org/logo/Rlogo.svg)](https://www.r-project.org), [tsibble](http://pkg.earo.me/tsibble) and [sugrrants](http://pkg.earo.me/sugrrants).
 
-I never manage to quit [![Vim](https://upload.wikimedia.org/wikipedia/commons/9/9f/Vimlogo.svg)](https://neovim.io) at first glimpse. I switch my terminal to [hyper ![hyper](https://hyper.is/static/hyper-logo.gif)](http://hyper.is) and haven't switched back since.
-
+For more, please check out my [blog](https://blog.earo.me) and [CV](cv.pdf).
 <!-- <img src="https://ghchart.rshah.org/756bb1/earowang" alt="Earo Wang Github Chart" /> -->

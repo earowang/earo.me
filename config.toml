@@ -194,11 +194,6 @@ defaultContentLanguageInSubdir = false
   url = "#j4f"
   weight = 8
 
-[[menu.main]]
-  name = "CV"
-  url = "cv.pdf"
-  weight = 9
-
 # Taxonomies.
 [taxonomies]
   tag = "tags"
