@@ -1,6 +1,5 @@
 baseurl = "https://earo.me/"
 title = "Earo Wang"
-copyright = "&copy; 2012-2018 Earo Wang"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"

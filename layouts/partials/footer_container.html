@@ -2,7 +2,7 @@
   <div class="container">
     <p class="powered-by">
       <span class="pull-left" aria-hidden="true">
-        {{ with .Site.Copyright }}{{ . | markdownify}} {{ end }}
+        &copy; 2012 - {{ now.Format "2006" }} {{ .Site.Params.Title }}
       </span>
 
       <a href = "mailto:earo.wang@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a> &middot; 
