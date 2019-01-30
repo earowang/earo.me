@@ -12,6 +12,6 @@ math = false
 
 url_slides = "https://slides.earo.me/rstudioconf19"
 url_code = "https://github.com/earowang/rstudioconf19"
-url_video = ""
+url_video = "https://resources.rstudio.com/rstudio-conf-2019/melt-the-clock-tidy-time-series-analysis"
 
 +++
