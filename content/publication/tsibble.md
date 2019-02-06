@@ -20,7 +20,7 @@ url_pdf = "http://pub.earo.me/tsibble.pdf"
 +++
 
 ```{txt}
-@misc{wang-tsibble-2018,
+@misc{wang-tsibble-2019,
   Author = {Earo Wang and Dianne Cook and Rob J Hyndman},
   Title = {A new tidy data structure to support exploration and modeling of temporal data},
   Year = {2019},

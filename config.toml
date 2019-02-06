@@ -193,6 +193,11 @@ defaultContentLanguageInSubdir = false
   url = "#j4f"
   weight = 8
 
+[[menu.main]]
+  name = "Blog"
+  url = "https://blog.earo.me"
+  weight = 9
+
 # Taxonomies.
 [taxonomies]
   tag = "tags"
