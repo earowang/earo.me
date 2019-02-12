@@ -17,7 +17,7 @@ image_preview = ""
 tags = ["r"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "http://pkg.earo.me/tsibble/"
+external_link = "https://tsibble.tidyverts.org"
 
 # Does the project detail page use math formatting?
 math = false

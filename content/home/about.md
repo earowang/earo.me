@@ -36,7 +36,7 @@ Thanks for visiting my web site, which is powered by [![Hugo](https://raw.github
 
 ---
 
-I am currently a PhD student supervised by [Di](http://www.dicook.org) and [Rob](http://robjhyndman.com) at Monash University. My PhD research focuses on tidy data structure and visualisation of temporal data, with open source implementation for [![R](https://www.r-project.org/logo/Rlogo.svg)](https://www.r-project.org), [tsibble](https://pkg.earo.me/tsibble) and [sugrrants](https://pkg.earo.me/sugrrants).
+I am currently a PhD student supervised by [Di](http://www.dicook.org) and [Rob](http://robjhyndman.com) at Monash University. My PhD research focuses on tidy data structure and visualisation of temporal data, with open source implementation for [![R](https://www.r-project.org/logo/Rlogo.svg)](https://www.r-project.org), [tsibble](https://tsibble.tidyverts.org) and [sugrrants](https://pkg.earo.me/sugrrants).
 
 I am an advocate for open reproducible research.
 <!-- <img src="https://ghchart.rshah.org/756bb1/earowang" alt="Earo Wang Github Chart" /> -->
