@@ -10,7 +10,7 @@ subtitle = ""
 widget = "experience"
 
 # Order that this section will appear in.
-weight = 4
+weight = 5
 
 +++
 
