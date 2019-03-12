@@ -11,9 +11,7 @@
     <div class="owl-carousel owl-theme">
       {{ range $carousel := where $.Data.Pages "Type" "carousel" }}
       <div class="item">
-        <a href="https://www.flickr.com/people/earowang/">
         <img src="{{ $carousel.Params.image }}" alt="" class="img-responsive">
-        </a>
       </div>
       {{ end }}
     </div>
