@@ -15,7 +15,7 @@ title = "Calendar-based graphics for visualizing people’s daily schedules"
 url_code = "https://github.com/earowang/paper-calendar-vis"
 url_arxiv = "https://arxiv.org/abs/1810.09624"
 url_doi = ""
-url_pdf = "http://pub.earo.me/calendar-vis.pdf"
+url_pdf = "http://pdf.earo.me/calendar-vis.pdf"
 
 +++
 

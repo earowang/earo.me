@@ -15,7 +15,7 @@ title = "A new tidy data structure to support exploration and modeling of tempor
 url_code = "https://github.com/earowang/paper-tsibble"
 url_arxiv = "https://arxiv.org/abs/1901.10257"
 url_doi = ""
-url_pdf = "http://pub.earo.me/tsibble.pdf"
+url_pdf = "http://pdf.earo.me/tsibble.pdf"
 
 +++
 

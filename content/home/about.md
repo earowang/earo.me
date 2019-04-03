@@ -36,7 +36,7 @@ Thanks for visiting my web site, which is powered by [![Hugo](https://raw.github
 
 ---
 
-I am a final year PhD student at Monash University. My thesis is [Tidy tools for supporting fluent workflow in temporal data analysis](https://thesis.earo.me), supervised by [Di](http://www.dicook.org) and [Rob](http://robjhyndman.com). I have developed several [![R](https://www.r-project.org/logo/Rlogo.svg)](https://www.r-project.org) packages for translating research methods, such as [tsibble](https://tsibble.tidyverts.org) and [sugrrants](https://pkg.earo.me/sugrrants).
+I am a final year PhD student at Monash University. My [thesis](https://thesis.earo.me) is Tidy tools for supporting fluent workflow in temporal data analysis, supervised by [Di](http://www.dicook.org) and [Rob](http://robjhyndman.com). I have developed several [![R](https://www.r-project.org/logo/Rlogo.svg)](https://www.r-project.org) packages for translating research methods, such as [tsibble](https://tsibble.tidyverts.org) and [sugrrants](https://pkg.earo.me/sugrrants).
 
 I am an advocate for open and reproducible research.
 <!-- <img src="https://ghchart.rshah.org/756bb1/earowang" alt="Earo Wang Github Chart" /> -->
