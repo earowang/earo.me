@@ -19,7 +19,7 @@ defaultContentLanguageInSubdir = false
 
 [params]
   name = "Earo Wang"
-  role = "Ph.D. student"
+  role = "PhD candidate"
   organization = "Monash University"
   organization_url = ""
   avatar = "portrait.jpg"
@@ -173,30 +173,25 @@ defaultContentLanguageInSubdir = false
   url = "#software"
   weight = 4
 
-[[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
-  weight = 5
+# [[menu.main]]
+#   name = "Experience"
+#   url = "#experience"
+#   weight = 6
 
-[[menu.main]]
-  name = "Experience"
-  url = "#experience"
-  weight = 6
-
-[[menu.main]]
-  name = "Awards"
-  url = "#awards"
-  weight = 7
+# [[menu.main]]
+#   name = "Awards"
+#   url = "#awards"
+#   weight = 7
 
 [[menu.main]]
   name = "J4F"
   url = "#j4f"
   weight = 8
 
-[[menu.main]]
-  name = "Blog"
-  url = "https://blog.earo.me"
-  weight = 9
+# [[menu.main]]
+#   name = "Blog"
+#   url = "https://blog.earo.me"
+#   weight = 9
 
 # Taxonomies.
 [taxonomies]
