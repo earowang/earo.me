@@ -178,10 +178,10 @@ defaultContentLanguageInSubdir = false
 #   url = "#experience"
 #   weight = 6
 
-# [[menu.main]]
-#   name = "Awards"
-#   url = "#awards"
-#   weight = 7
+[[menu.main]]
+  name = "Awards"
+  url = "#awards"
+  weight = 7
 
 [[menu.main]]
   name = "J4F"
