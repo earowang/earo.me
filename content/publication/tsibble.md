@@ -20,10 +20,12 @@ url_pdf = "http://pdf.earo.me/tsibble.pdf"
 +++
 
 ```{txt}
-@misc{wang-tsibble-2019,
+@misc{,
   Author = {Earo Wang and Dianne Cook and Rob J Hyndman},
   Title = {A new tidy data structure to support exploration and modeling of temporal data},
   Year = {2019},
   Eprint = {arXiv:1901.10257},
 }
 ```
+
+The accompanying R package **tsibble** has won the John Chambers Statistical Software Award in 2019. 

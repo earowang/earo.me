@@ -17,7 +17,7 @@ url_pdf = "http://pdf.earo.me/hgts.pdf"
 +++
 
 ```{txt}
-@article{hyndman-fasthts-2016,
+@article{,
   title = {Fast computation of reconciled forecasts for hierarchical and grouped time series},
   volume = {97},
   issn = {01679473},

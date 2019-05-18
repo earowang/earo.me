@@ -1,6 +1,6 @@
 +++
 abstract = """
-This paper describes a `frame_calendar` function that organizes and displays temporal data, collected on sub-daily resolution, into a calendar layout. Calendars are broadly used in society to display temporal information, and events. The `frame_calendar` uses linear algebra on the date variable to create the layout. It utilizes the grammar of graphics to create the plots inside each cell, and thus synchronizes neatly with **ggplot2** graphics. The motivating application is studying pedestrian behavior in Melbourne, Australia, based on counts which are captured at hourly intervals by sensors scattered around the city. Faceting by the usual features such as day and month, was insufficient to examine the behavior. Making displays on a monthly calendar format helps to understand pedestrian patterns relative to events such as work days, weekends, holidays, and special events. The layout algorithm has several format options and variations. It is implemented in the R package **sugrrants**.
+Calendars are broadly used in society to display temporal information and events. This paper describes a new calendar display for plotting data, that includes a layout algorithm with many options, and faceting functionality. The functions use modulus algebra on the date variable to restructure the data into a calendar format. The user can apply the grammar of graphics to create plots inside each calendar cell, and thus the displays synchronize neatly with **ggplot2** graphics. The motivating application is studying pedestrian behavior in Melbourne, Australia, based on counts which are captured at hourly intervals by sensors scattered around the city. Faceting by the usual features such as day and month, is insufficient to examine the behavior. Making displays on a monthly calendar format helps to understand pedestrian patterns relative to events such as work days, weekends, holidays, and special events. The functions for the calendar algorithm are available in the R package **sugrrants**.
 """
 abstract_short = ""
 authors = ["Earo Wang", "Dianne Cook", "Rob J Hyndman"]
@@ -20,10 +20,12 @@ url_pdf = "http://pdf.earo.me/calendar-vis.pdf"
 +++
 
 ```{txt}
-@misc{wang-calendarviz-2018,
+@misc{,
   Author = {Earo Wang and Dianne Cook and Rob J Hyndman},
   Title = {Calendar-based graphics for visualizing people's daily schedules},
   Year = {2018},
   Eprint = {arXiv:1810.09624},
 }
 ```
+
+This paper has won the ASA Statistical Graphics Student Paper Award and the ACEMS Business Analytics Prize in 2018.

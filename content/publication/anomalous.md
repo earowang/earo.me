@@ -17,7 +17,7 @@ url_pdf = "http://pdf.earo.me/icdm2015.pdf"
 +++
 
 ```{txt}
-@InProceedings{cikm,
+@InProceedings{,
   title = {Large-scale unusual time series detection},
   author = {Rob J Hyndman and Earo Wang and Nikolay Laptev},
   booktitle = {Proceedings of the IEEE International Conference on Data Mining},
