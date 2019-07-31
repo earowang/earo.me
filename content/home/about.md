@@ -12,9 +12,9 @@ weight = 1
 # # List your academic interests.
 # [interests]
 #   interests = [
+#     "Humane #rstats",
 #     "Data Visualisation",
-#     "Computational Statistics",
-#     "Time Series Analysis",
+#     "Statistical computing",
 #     "Web Technology"
 #   ]
 # 
@@ -31,7 +31,7 @@ weight = 1
  
 +++
 
-I'm a PhD candidate at Monash University and future academic at University of Auckland. My research focuses on statistical computing and graphics, and data science. I translate research methodology into open source packages for [![R](https://www.r-project.org/logo/Rlogo.svg)](https://www.r-project.org). I have received the 2019 John Chambers Statistical Software Award from the ASA for developing the [tsibble](https://tsibble.tidyverts.org) package. My [thesis](https://thesis.earo.me) is "Tidy tools for supporting fluent workflow in temporal data analysis", supervised by [Di](http://www.dicook.org) and [Rob](http://robjhyndman.com).
+I'm a PhD candidate at Monash University and future faculty at University of Auckland. My research focuses on statistical computing and graphics, and data science. I translate research methodology into open source packages for [![R](https://www.r-project.org/logo/Rlogo.svg)](https://www.r-project.org). I have received the 2019 John Chambers Statistical Software Award from the ASA for developing the [tsibble](https://tsibble.tidyverts.org) package. My [thesis](https://thesis.earo.me) is "Tidy tools for supporting fluent workflow in temporal data analysis", supervised by [Di](http://www.dicook.org) and [Rob](http://robjhyndman.com).
 
 I'm an advocate for open and reproducible research. My research projects are structured in an opinionated way---an adapted form of [research compendium](https://peerj.com/preprints/3192/).
 
