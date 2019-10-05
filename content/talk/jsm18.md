@@ -1,5 +1,6 @@
 +++
 date = "2018-07-30"
+all_day = true
 title = "Calendar-based graphics for visualizing people’s daily schedules"
 abstract = ""
 abstract_short = ""

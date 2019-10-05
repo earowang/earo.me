@@ -1,45 +1,26 @@
-{{ partial "header.html" . }}
-{{ partial "navbar.html" . }}
+{{- define "main" -}}
 
-{{ if .Params.header.image }}
-<div class="article-header">
-  <img src="{{ "/img/" | relURL }}/{{ .Params.header.image }}" class="article-banner" itemprop="image">
-  {{ with .Params.header.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
-</div>
-{{end}}
+{{ partial "page_header.html" . }}
 
 <div class="universal-wrapper">
 
-  <h1>{{ .Title | default (i18n "posts") }}</h1>
-
   {{ with .Content }}
-  <div class="article-style" itemprop="articleBody">{{ . }}</div>
+  <div class="article-style">{{ . }}</div>
   {{ end }}
 
   {{ $paginator := .Paginate .Data.Pages }}
   {{ range $paginator.Pages }}
-  <div>
-    {{ if .Params.image }}
-    <a href="{{ .Permalink }}">
-      <img src="{{ $.Site.BaseURL }}img/{{ .Params.image }}" class="article-banner">
-    </a>
-    {{end}}
-    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-    {{ partial "article_metadata" (dict "content" . "is_list" 1) }}
-    <div class="article-style"><p>
-      {{ if .Params.summary }}
-      {{ printf "%s" .Params.summary | markdownify }}
-      {{ else if .Truncated }}
-      {{ printf "%s" .Summary | markdownify }}
-      {{ else }}
-      {{ .Content }}
-      {{ end }}
-    </p></div>
-  </div>
+    {{ if eq $.Params.view 1 }}
+      {{ partial "li_list" . }}
+    {{ else if eq $.Params.view 3 }}
+      {{ partial "li_card" . }}
+    {{ else }}
+      {{ partial "li_compact" . }}
+    {{ end }}
   {{ end }}
 
   {{ partial "pagination" . }}
 
 </div>
-{{ partial "footer_container.html" . }}
-{{ partial "footer.html" . }}
+
+{{- end -}}

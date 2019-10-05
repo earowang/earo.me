@@ -1,5 +1,6 @@
 +++
 date = "2018-10-04"
+all_day = true
 title = "Tidy your time series analysis with tsibble"
 abstract = ""
 abstract_short = ""

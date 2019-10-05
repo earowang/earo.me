@@ -1,5 +1,6 @@
 +++
 date = "2017-05-29"
+all_day = true
 title = "Tidy data and statistical visualisation to support exploration of temporal data with R"
 abstract = ""
 abstract_short = ""

@@ -1,5 +1,6 @@
 +++
 date = "2018-02-01"
+all_day = true
 title = "When time series meets tibble, it's tsibble!"
 abstract = ""
 abstract_short = ""

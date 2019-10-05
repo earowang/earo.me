@@ -19,13 +19,4 @@ url_pdf = "http://pdf.earo.me/calendar-vis.pdf"
 
 +++
 
-```{txt}
-@misc{,
-  Author = {Earo Wang and Dianne Cook and Rob J Hyndman},
-  Title = {Calendar-based graphics for visualizing people's daily schedules},
-  Year = {2018},
-  Eprint = {arXiv:1810.09624},
-}
-```
-
 This paper has won the ASA Statistical Graphics Student Paper Award and the ACEMS Business Analytics Prize in 2018.

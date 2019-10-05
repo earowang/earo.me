@@ -1,5 +1,6 @@
 +++
 date = "2018-07-13"
+all_day = true
 title = "tsibble: The 15th time series standard"
 abstract = ""
 abstract_short = ""

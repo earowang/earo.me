@@ -1,5 +1,6 @@
 +++
 date = "2017-11-26"
+all_day = true
 title = "Exploring data and models visually"
 abstract = ""
 abstract_short = ""

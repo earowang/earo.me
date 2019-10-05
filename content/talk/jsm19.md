@@ -1,5 +1,6 @@
 +++
 date = "2019-07-28"
+all_day = true
 title = "A new tidy data structure to support exploration and modeling of temporal data"
 abstract = ""
 abstract_short = ""

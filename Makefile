@@ -1,2 +1,0 @@
-serve:
-	hugo server

@@ -1,0 +1,18 @@
+# Theme metadata
+name = "Wang"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#1fb27f"
+
+# Menu
+menu_primary = "#4dc7ec"
+menu_text = "#f2f2f6"
+menu_text_active = "#d7df3f"
+menu_title = "#f2f2f6"
+
+# Home sections
+home_section_odd = "#ffffff"
+home_section_even = "#f2f1f6"

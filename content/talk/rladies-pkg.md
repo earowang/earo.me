@@ -1,5 +1,6 @@
 +++
 date = "2018-05-24"
+all_day = true
 title = "Everything you need to know to create your own R package"
 abstract = ""
 abstract_short = ""

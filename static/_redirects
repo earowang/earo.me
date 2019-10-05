@@ -1,5 +1,0 @@
-/slides/*     http://slides.earo.me/:splat
-/data/*              http://data.earo.me/:splat
-/lab/*                  http://lab.earo.me/:splat
-https://earowang.netlify.com/*  https://earo.me/:splat  301!
-http://earowang.netlify.com/*   https://earo.me/:splat  301!

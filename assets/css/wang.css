@@ -1,0 +1,31 @@
+.dropdown-menu,
+nav#navbar-main li.nav-item {
+  font-size: 26px;
+}
+
+.portrait-title h2 {
+  font-size: 20px;
+}
+
+.portrait-title h3 {
+  font-size: 18px;
+}
+
+.big-icon {
+  font-size: 1.5rem;
+}
+
+.card h4 {
+  text-transform: none;
+}
+
+
+#profile {
+  padding: 0px;
+}
+
+p img {
+  height: 1.1rem;
+  width: auto;
+  display: inline;
+}

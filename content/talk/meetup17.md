@@ -1,5 +1,6 @@
 +++
 date = "2017-10-28"
+all_day = true
 title = "Analysing sub-daily time series data"
 abstract = ""
 abstract_short = ""

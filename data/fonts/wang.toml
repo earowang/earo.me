@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Wang"
+
+# Optional Google font URL
+google_fonts = "Mansalva|Source+Serif+Pro|Source+Code+Pro"
+
+# Font families
+heading_font = "Source Serif Pro"
+body_font = "Source Serif Pro"
+nav_font = "Mansalva"
+mono_font = "Source Code Pro"

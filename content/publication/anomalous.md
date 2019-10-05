@@ -15,14 +15,3 @@ url_doi = "https://doi.org/10.1109/ICDMW.2015.104"
 url_pdf = "http://pdf.earo.me/icdm2015.pdf"
 
 +++
-
-```{txt}
-@InProceedings{,
-  title = {Large-scale unusual time series detection},
-  author = {Rob J Hyndman and Earo Wang and Nikolay Laptev},
-  booktitle = {Proceedings of the IEEE International Conference on Data Mining},
-  year = {2015},
-  publisher = {Atlantic City, NJ, USA. 14--17 November 2015},
-  doi = {10.1109/ICDMW.2015.104},
-}
-```

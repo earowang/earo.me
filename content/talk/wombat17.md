@@ -1,5 +1,6 @@
 +++
 date = "2017-06-02"
+all_day = true
 title = "Sketch people's daily schedules"
 abstract = ""
 abstract_short = ""

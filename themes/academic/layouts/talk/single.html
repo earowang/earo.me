@@ -1,95 +1,71 @@
-{{ partial "header.html" . }}
-{{ partial "navbar.html" . }}
-<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+{{- define "main" -}}
 
-  {{ if .Params.header.image }}
-  <div class="article-header">
-    <img src="{{ "/img/" | relURL }}/{{ .Params.header.image }}" class="article-banner" itemprop="image">
-    {{ with .Params.header.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
-  </div>
-  {{end}}
+<div class="pub">
+
+  {{ partial "page_header.html" . }}
 
   <div class="article-container">
 
-    <div class="pub-title">
-      <h1 itemprop="name">{{ .Title }}</h1>
-      <span class="pub-authors" itemprop="author">
-        {{ with .Params.authors }}
-        {{ delimit . ", " }}
-        {{ end }}
-      </span>
-      <span class="pull-right">
-        {{ partial "share.html" . }}
-      </span>
-    </div>
-
     {{ if .Params.abstract }}
       <h3>{{ i18n "abstract" }}</h3>
-      <p class="pub-abstract" itemprop="text">{{ .Params.abstract }}</p>
+      <p class="pub-abstract">{{ .Params.abstract | markdownify | emojify }}</p>
     {{ else }}
       <br>
     {{ end }}
 
     <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
         <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading">{{ i18n "date" }}</div>
-          <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            {{ .Date.Format $.Site.Params.date_format }}
+          <div class="col-12 col-md-3 pub-row-heading">{{ i18n "date" }}</div>
+          <div class="col-12 col-md-9">
+            {{ partial "functions/get_event_dates" . }}
           </div>
         </div>
       </div>
-      <div class="col-sm-1"></div>
+      <div class="col-md-1"></div>
     </div>
-    <div class="visible-xs space-below"></div>
+    <div class="d-md-none space-below"></div>
 
     <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
         <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading">{{ i18n "event" }}</div>
-          <div class="col-xs-12 col-sm-9">
-            {{ with .Params.event_url }}<a href="{{ . }}" target="_blank">{{ end }}
+          <div class="col-12 col-md-3 pub-row-heading">{{ i18n "event" }}</div>
+          <div class="col-12 col-md-9">
+            {{ with .Params.event_url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
             {{ .Params.event | markdownify }}
             {{ if .Params.event_url }}</a>{{ end }}
           </div>
         </div>
       </div>
-      <div class="col-sm-1"></div>
+      <div class="col-md-1"></div>
     </div>
-    <div class="visible-xs space-below"></div>
+    <div class="d-md-none space-below"></div>
 
-    {{ with .Params.location }}
+    {{ if .Params.location }}
     <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
         <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading">{{ i18n "location" }}</div>
-          <div class="col-xs-12 col-sm-9">{{ . | markdownify }}</div>
+          <div class="col-12 col-md-3 pub-row-heading">{{ i18n "location" }}</div>
+          <div class="col-12 col-md-9">{{ .Params.location | markdownify }}</div>
+          {{ if .Params.address }}
+            {{ $addr := slice }}
+            {{with .Params.address.street}}{{$addr = $addr | append .}}{{end}}
+            {{with .Params.address.city}}{{$addr = $addr | append .}}{{end}}
+            {{with .Params.address.region}}{{$addr = $addr | append .}}{{end}}
+            {{with .Params.address.postcode}}{{$addr = $addr | append .}}{{end}}
+            {{with .Params.address.country}}{{$addr = $addr | append .}}{{end}}
+            {{ $addr_formatted := delimit $addr (site.Params.list_delimiter | default ", ") }}
+            <div class="col-md-3"></div>
+            <div class="col-12 col-md-9">{{$addr_formatted}}</div>
+          {{end}}
         </div>
       </div>
-      <div class="col-sm-1"></div>
+      <div class="col-md-1"></div>
     </div>
-    <div class="visible-xs space-below"></div>
-    {{ end }}
-
-    {{ if .Params.url_pdf | or .Params.url_slides | or .Params.url_video | or .Params.url_custom }}
-    <div class="row" style="padding-top: 10px">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">{{ i18n "links" }}</div>
-          <div class="col-xs-12 col-sm-9">
-
-            {{ partial "talk_links" (dict "content" . "is_list" 0) }}
-
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-1"></div>
-    </div>
-    <div class="visible-xs space-below"></div>
+    <div class="d-md-none space-below"></div>
     {{ end }}
 
     <div class="space-below"></div>
@@ -98,12 +74,18 @@
       {{ .Content }}
     </div>
 
+    {{ partial "tags.html" . }}
+    {{ partial "page_author.html" . }}
+
+    {{ partial "comments" . }}
+
   </div>
 </div>
 
-<div class="container">
+{{ if site.Params.section_pager }}
+<div class="article-container article-widget">
   {{ partial "section_pager.html" . }}
 </div>
+{{ end }}
 
-{{ partial "footer_container.html" . }}
-{{ partial "footer.html" . }}
+{{- end -}}
