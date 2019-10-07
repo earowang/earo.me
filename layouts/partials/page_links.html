@@ -15,22 +15,6 @@
 </a>
 {{ end }}
 
-{{ $doi := "" }}
-{{ $resource := $page.Resources.GetMatch (printf "%s.doi" $page.File.ContentBaseName) }}
-{{ with $resource }}
-  {{ $doi = .RelPermalink }}
-{{ else }}
-  {{ if $page.Params.url_doi }}
-    {{ $doi = $page.Params.url_doi | relURL }}
-  {{ end }}
-{{ end }}
-
-{{ with $doi }}
-<a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{end}}" href="{{ . }}" target="_blank" rel="noopener">
-  {{ i18n "btn_doi" }}
-</a>
-{{ end }}
-
 {{ $pdf := "" }}
 {{ $resource := $page.Resources.GetMatch (printf "%s.pdf" $page.File.ContentBaseName) }}
 {{ with $resource }}
