@@ -28,3 +28,8 @@ p img {
   width: auto;
   display: inline;
 }
+
+footer {
+  margin: 2rem 0 0;
+}
+
