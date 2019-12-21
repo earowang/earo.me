@@ -10,12 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD candidate
+role: Lecturer
 
 # Organizations/Affiliations
 organizations:
-- name: Monash University
-  url: "https://www.monash.edu"
+- name: University of Auckland
+  url: "https://www.auckland.ac.nz/en.html"
 
 # Short bio (displayed in user profile at end of posts)
 bio: []
@@ -55,7 +55,7 @@ email: ""
 user_groups: []
 ---
 
-I'm a PhD candidate at Monash University and future faculty at University of Auckland. My research focuses on statistical computing and graphics, and data science. I translate research methodology into open source packages for [![R](https://www.r-project.org/logo/Rlogo.svg)](https://www.r-project.org). I have received the 2019 John Chambers Statistical Software Award from the ASA for developing the [tsibble](https://tsibble.tidyverts.org) package. My [thesis](https://thesis.earo.me) is "Tidy tools for supporting fluent workflow in temporal data analysis", supervised by [Di](http://www.dicook.org) and [Rob](http://robjhyndman.com).
+I'm a lecturer at [the Department of Statistics, University of Auckland](https://www.auckland.ac.nz/en/science/about-the-faculty/department-of-statistics.html). I earned my PhD from Monash University, Australia. My research focuses on statistical computing and graphics, and data science. I translate research methodology into open source packages for [![R](https://www.r-project.org/logo/Rlogo.svg)](https://www.r-project.org). I have received the 2019 John Chambers Statistical Software Award from the ASA for developing the [tsibble](https://tsibble.tidyverts.org) package.
 
 I'm an advocate for open and reproducible research. My research projects are structured in an opinionated way---an adapted form of [research compendium](https://peerj.com/preprints/3192/).
 
