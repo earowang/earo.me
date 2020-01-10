@@ -4,21 +4,21 @@ authors:
 - admin
 - Dianne Cook
 - Rob J Hyndman
-date: "2017-08-11T00:00:00Z"
-doi: ""
+date: "2020-01-10T00:00:00Z"
+doi: "https://doi.org/10.1080/10618600.2019.1695624"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-08-11T00:00:00Z"
+publishDate: "2020-01-10T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+publication: "Journal of Computational and Graphical Statistics"
+publication_short: "JCGS"
 
 abstract: Calendars are broadly used in society to display temporal information and events. This paper describes a new calendar display for plotting data, that includes a layout algorithm with many options, and faceting functionality. The functions use modular algebra on the date variable to restructure the data into a calendar format. The user can apply the grammar of graphics to create plots inside each calendar cell, and thus the displays synchronize neatly with **ggplot2** graphics. The motivating application is studying pedestrian behavior in Melbourne, Australia, based on pedestrian counts which are captured at hourly intervals by sensors scattered around the city. Faceting by the usual features such as day and month, is insufficient to examine the behavior. Making displays on a monthly calendar format helps to understand pedestrian patterns relative to events such as work days, weekends, holidays, and special events. The functions for the calendar algorithm are available in the R package **sugrrants**.
 
