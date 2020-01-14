@@ -5,7 +5,7 @@ authors:
 - admin
 - Nikolay Laptev
 date: "2015-11-14t00:00:00z"
-doi: "https://doi.org/10.1109/ICDMW.2015.104"
+doi: "10.1109/ICDMW.2015.104"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2015-11-17T00:00:00Z"

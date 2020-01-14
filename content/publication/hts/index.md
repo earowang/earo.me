@@ -5,7 +5,7 @@ authors:
 - Alan Lee
 - admin
 date: "2016-01-17T00:00:00Z"
-doi: "http://dx.doi.org/10.1016/j.csda.2015.11.007"
+doi: "10.1016/j.csda.2015.11.007"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2016-01-17T00:00:00Z"

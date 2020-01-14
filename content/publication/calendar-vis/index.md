@@ -5,7 +5,7 @@ authors:
 - Dianne Cook
 - Rob J Hyndman
 date: "2020-01-10T00:00:00Z"
-doi: "https://doi.org/10.1080/10618600.2020.1715226"
+doi: "10.1080/10618600.2020.1715226"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2020-01-10T00:00:00Z"
