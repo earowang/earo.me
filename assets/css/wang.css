@@ -33,3 +33,7 @@ footer {
   margin: 2rem 0 0;
 }
 
+.contact-widget li {
+  padding-top: 0.5rem; /* Align text with bottom of `fa-2x` icon. */
+  margin-bottom: 0.3rem;
+}

@@ -31,7 +31,7 @@ education: []
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:earo.wang@gmail.com'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:earo.wang@auckland.ac.nz'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/earowang
