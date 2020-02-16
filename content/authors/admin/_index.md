@@ -55,7 +55,7 @@ email: ""
 user_groups: []
 ---
 
-I'm a lecturer at [the Department of Statistics, University of Auckland](https://www.auckland.ac.nz/en/science/about-the-faculty/department-of-statistics.html). I earned my PhD from Monash University, Australia. My research focuses on statistical computing and graphics, and data science. I translate research methodology into open source packages for [![R](https://www.r-project.org/logo/Rlogo.svg)](https://www.r-project.org). I have received the 2019 John Chambers Statistical Software Award from the ASA for developing the [tsibble](https://tsibble.tidyverts.org) package.
+I'm a lecturer at [the Department of Statistics](https://www.auckland.ac.nz/en/science/about-the-faculty/department-of-statistics.html) of the [University of Auckland](http://auckland.ac.nz) in New Zealand. I earned my PhD from Monash University, Australia. My research focuses on statistical computing and graphics, and data science. I translate research methodology into open source packages for [![R](https://www.r-project.org/logo/Rlogo.svg)](https://www.r-project.org). I have received the 2019 John Chambers Statistical Software Award from the ASA for developing the [tsibble](https://tsibble.tidyverts.org) package.
 
 I'm an advocate for open and reproducible research. My research projects are structured in an opinionated way---an adapted form of [research compendium](https://peerj.com/preprints/3192/).
 
