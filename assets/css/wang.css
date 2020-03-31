@@ -54,7 +54,7 @@ footer {
 }
 
 .typewriter:before {
-  content: ">";
+  content: "> ";
 }
 
 /* The typing effect */
