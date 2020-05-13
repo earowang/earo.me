@@ -14,8 +14,8 @@ role: Lecturer
 
 # Organizations/Affiliations
 organizations:
-- name: University of Auckland
-  url: "https://www.auckland.ac.nz/en.html"
+- name: The University of Auckland
+  url: "https://www.auckland.ac.nz"
 
 # Short bio (displayed in user profile at end of posts)
 bio: []
@@ -57,7 +57,7 @@ user_groups: []
 greeting: wang::kia_ora()
 ---
 
-I'm a lecturer in the [Department of Statistics](https://www.auckland.ac.nz/en/science/about-the-faculty/department-of-statistics.html) of the [University of Auckland](http://auckland.ac.nz), New Zealand. I earned my PhD from Monash University, Australia. My research focuses on statistical computing and graphics, and data science. I translate research methodology into open source packages for [![R](https://www.r-project.org/logo/Rlogo.svg)](https://www.r-project.org).
+I'm a lecturer in the [Department of Statistics](https://www.auckland.ac.nz/en/science/about-the-faculty/department-of-statistics.html) at the [University of Auckland](http://auckland.ac.nz). I earned my PhD from Monash University, Australia. My research focuses on statistical computing and graphics, and data science. I translate research methodology into open source packages for [![R](https://www.r-project.org/logo/Rlogo.svg)](https://www.r-project.org).
 
 I'm an advocate for open and reproducible research. My research projects are structured in an opinionated way---an adapted form of [research compendium](https://peerj.com/preprints/3192/).
 
