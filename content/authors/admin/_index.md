@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Lecturer
+role: Lecturer in Data Science
 
 # Organizations/Affiliations
 organizations:
@@ -57,7 +57,7 @@ user_groups: []
 greeting: wang::kia_ora()
 ---
 
-I'm a lecturer in the [Department of Statistics](https://www.auckland.ac.nz/en/science/about-the-faculty/department-of-statistics.html) at the [University of Auckland](http://auckland.ac.nz). I earned my PhD from Monash University, Australia. My research focuses on statistical computing and graphics, and data science. I translate research methodology into open source packages for [![R](https://www.r-project.org/logo/Rlogo.svg)](https://www.r-project.org).
+I'm a lecturer in Data Science at the [Department of Statistics](https://www.auckland.ac.nz/en/science/about-the-faculty/department-of-statistics.html), the University of Auckland. I earned my PhD from Monash University, under the supervision of [Dianne Cook](http://dicook.org) and [Rob J Hyndman](https://robjhyndman.com). My research focuses on statistical computing and graphics, and data science. I translate research methodology into accessible and human-centered [![R](https://www.r-project.org/logo/Rlogo.svg)](https://www.r-project.org) packages.
 
 I'm an advocate for open and reproducible research. My research projects are structured in an opinionated way---an adapted form of [research compendium](https://peerj.com/preprints/3192/).
 

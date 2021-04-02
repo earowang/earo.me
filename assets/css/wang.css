@@ -19,6 +19,10 @@ nav#navbar-main li.nav-item {
   text-transform: none;
 }
 
+.card-body {
+  padding: 1rem 1.25rem 0.6rem 1.25rem;
+}
+
 #profile {
   padding: 0px;
 }
