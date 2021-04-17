@@ -61,4 +61,4 @@ I'm a lecturer in Data Science at the [Department of Statistics](https://www.auc
 
 I'm an advocate for open and reproducible research. My research projects are structured in an opinionated way---an adapted form of [research compendium](https://peerj.com/preprints/3192/).
 
-Briefly speaking, I turn coffee (mostly flat white) into code.
+Briefly speaking, I turn coffee (mostly flat white) into code, and extract insights from data through code.
