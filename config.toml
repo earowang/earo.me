@@ -1,0 +1,55 @@
+# Base information
+baseURL = "https://earo.me/"
+languageCode = "en-gb"
+title = "Earo Wang"
+theme = "hugo-developer-portfolio"
+googleAnalytics = "UA-83007123-1"
+
+[module]
+  [[module.imports]]
+    path = "hugo-developer-portfolio"
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"
+  [[params.plugins.js]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"
+
+
+# navigation
+
+
+[params]
+home = "Home"
+# Meta data
+description = "The website of Earo Wang"
+author = "Earo Wang"
+
+  [params.contact]
+  enable = false
+  formAction = "" #contact form works with formspree.io
+
+  [params.footer]
+  email = ""
+  address = ""
+  googlemaps = ""
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    style = "rainbow_dash"
+    tabWidth = 2
+

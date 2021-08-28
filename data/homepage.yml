@@ -1,0 +1,25 @@
+---
+banner:
+  title: Hi, I'm Earo. I'm a full-stack data scientist, specialising in exploratory data analysis, statistical modelling and forecasting, and software and workflow design.
+social:
+  twitter: earowang
+  linkedin: earowang
+  github: earowang
+  gmail: earowang
+experience:
+  enable: true
+  item:
+    - logo: https://upload.wikimedia.org/wikipedia/commons/9/9c/University_of_Auckland_logo.png
+      title: Lecturer
+      company: The University of Auckland
+      duration: Feb 2020 - present
+      description: >
+        * Undertake and supervise an active research programme in data science, data visualisation, and software development.
+
+        * Develop data science curriculum and instruct [STATS220 Data Technologies](http://stats220.earo.me).
+skill:
+  enable: true
+  item:
+    - title: R
+      logo: https://cran.r-project.org/Rlogo.svg
+---
