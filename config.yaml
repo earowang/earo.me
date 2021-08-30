@@ -1,0 +1,53 @@
+baseURL: https://earo.me
+
+languageCode: en-us
+title: "Earo Wang"
+theme: "toha"
+
+# Manage languages
+# For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
+languages:
+  en:
+    languageName: English
+    weight: 1
+
+# Control TOC depth
+markup:
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+
+# At least HTML and JSON are required for the main HTML content and
+# client-side JavaScript search
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON
+
+# Enable global emoji support
+enableEmoji: true
+
+# Site parameters
+params:
+  # GitHub repo URL and branch of your site
+  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitBranch: main
+
+  # specify whether you want to write some blog posts or not
+  enableBlogPost: false
+
+  # specify whether you want to show Table of Contents in reading page
+  enableTOC: true
+
+  # Provide newsletter configuration. 
+  # This feature has been implemented for Mailchimp only for now.
+  # You can also hide it from the footer.
+  newsletter:
+    # specify whether you want to display the newsletter form 
+    enable: false
+    # specify which newsletter provider you want to use
+    provider: mailchimp
+    # specify the target URL for the subscription form
+    mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e

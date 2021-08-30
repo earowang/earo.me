@@ -1,0 +1,18 @@
+# some information about you
+name: "Earo Wang"
+nickname: "Earo"
+# image: "images/avatar.png"
+
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "G'day, I'm"
+
+# give your contact information. they will be used in the footer
+contactInfo:
+  email: "earowang at gmail.com"
+
+# a summary of what you do
+summary:
+- data["visualiser"]
+- data["wrangler"]
+- data["modeller"]
+- data["developer"]
