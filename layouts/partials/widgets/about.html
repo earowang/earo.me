@@ -71,12 +71,6 @@
     {{/* Only display widget title in explicit instances of about widget, not in author pages. */}}
     {{ if and $page.Params.widget $page.Title }}<h1>{{ $page.Title | markdownify | emojify }}</h1>{{ end }}
 
-    <div style="background-color: #fdf6e3; margin: 0 auto 20px;">
-      <div class="typewriter">
-        {{ $person.greeting }}
-      </div>
-    </div>
-
     {{ $person_page.Content }}
 
     <div class="row">

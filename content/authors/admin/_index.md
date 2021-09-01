@@ -53,12 +53,8 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups: []
-
-greeting: wang::kia_ora()
 ---
 
-I'm a lecturer in Data Science at the [Department of Statistics](https://www.auckland.ac.nz/en/science/about-the-faculty/department-of-statistics.html), the University of Auckland. I earned my PhD from Monash University, under the supervision of [Dianne Cook](http://dicook.org) and [Rob J Hyndman](https://robjhyndman.com). My research focuses on statistical computing and graphics, and data science. I translate research methodology into human-centered and data-centric [![R](https://www.r-project.org/logo/Rlogo.svg)](https://www.r-project.org) packages.
-
-I'm an advocate for open and reproducible research. My research projects are structured in an opinionated way---an adapted form of [research compendium](https://peerj.com/preprints/3192/).
+I'm a lecturer in Data Science at the [Department of Statistics](https://www.auckland.ac.nz/en/science/about-the-faculty/department-of-statistics.html), the University of Auckland. I earned my PhD from Monash University, under the supervision of [Dianne Cook](http://dicook.org) and [Rob J Hyndman](https://robjhyndman.com). My research focuses on statistical computing and graphics, and data science. I design and develop human-centered and data-oriented statistical software for [![R](https://www.r-project.org/logo/Rlogo.svg)](https://www.r-project.org).
 
 Briefly speaking, I turn coffee (mostly flat white) into code, and extract insights from data through code.

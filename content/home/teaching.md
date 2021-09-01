@@ -18,12 +18,12 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "[STATS220 Data Technology](http://stats220.earo.me)"
+  title = "[STATS220 Data Technologies](http://stats220.earo.me)"
   company = "The University of Auckland"
   company_url = ""
   location = "Auckland, New Zealand"
   date_start = "2021-03-01"
-  date_end = ""
+  date_end = "2021-06-04"
   description = """
   This course introduces R programming to handle a wide variety of data science challenges, from importing, wrangling, visualising data, to reproducible reporting, for effective data-driven decision making.
   """
