@@ -1,0 +1,33 @@
+baseURL = "https://earo.me"
+languageCode = "en-us"
+title = "G'day"
+theme = "archie"
+copyright = "© Earo Wang"
+# Code Highlight
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+paginate = 3 # articles per page
+
+[params]
+mode = "auto" # color-mode → light,dark or auto
+useCDN = true # don't use CDNs for fonts and icons, instead serve them locally.
+subtitle = ""
+
+# Social Tags
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/earowang"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/earowang"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/earowang/"
