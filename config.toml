@@ -12,8 +12,10 @@ paginate = 3 # articles per page
 
 [params]
 mode = "auto" # color-mode → light,dark or auto
-useCDN = true # don't use CDNs for fonts and icons, instead serve them locally.
+useCDN = false # don't use CDNs for fonts and icons, instead serve them locally.
 subtitle = ""
+customcss = ["css/wang.css"]
+
 
 # Social Tags
 
