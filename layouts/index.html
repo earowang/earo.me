@@ -7,6 +7,20 @@
 			
 			<main class="list">
         {{ .Content }}
+
+        {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+        {{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
+        {{ range $paginator.Pages }}
+        <h2 class="title">News</h2>
+        <section class="list-item">
+          <ul class="posts">
+            <li class="post">
+              {{ markdownify .Title}} <span class="meta">{{ dateFormat "Jan, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</span>
+            </li>
+          </ul>
+        </section>
+        {{ end }}
+        {{ template "partials/paginator.html" . }}
 			</main>
 			{{ partial "footer.html" . }}
 		</div>

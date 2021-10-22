@@ -6,10 +6,4 @@ author = "Earo Wang"
 
 Hi! I'm Earo, a `data[c("explorer", "storyteller", "toolmaker")]`.
 
-I currently work in strategy & analysis at [Canva](https://www.canva.com/careers/data/). As a former faculty, my past academic portfolio can be found [here](https://academic.earo.me).
-
-Outside of work, I enjoy 
-
-* programming with R,
-* playing tennis and switch games,
-* sipping flat white and G&T.
+I'm a faculty at the University of Auckland, and my academic portfolio can be found [here](https://academic.earo.me).
