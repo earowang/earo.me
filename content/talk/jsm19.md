@@ -12,7 +12,7 @@ selected = false
 math = false
 
 url_slides = "http://slides.earo.me/jsm19/"
-url_code = "https://github.com/earowang/jsm18"
+url_code = "https://github.com/earowang/jsm19"
 
 +++
 
