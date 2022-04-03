@@ -10,12 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: Lecturer in Data Science
+role: 
 
 # Organizations/Affiliations
 organizations:
-- name: The University of Auckland
-  url: "https://www.auckland.ac.nz"
+- name: 
+  url: 
 
 # Short bio (displayed in user profile at end of posts)
 bio: []
@@ -31,7 +31,7 @@ education: []
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:earo.wang@auckland.ac.nz'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:earo.wang@gmail.com'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/earowang
@@ -55,6 +55,10 @@ email: ""
 user_groups: []
 ---
 
-I'm a lecturer in Data Science at the [Department of Statistics](https://www.auckland.ac.nz/en/science/about-the-faculty/department-of-statistics.html), the University of Auckland. I earned my PhD from Monash University, under the supervision of [Dianne Cook](http://dicook.org) and [Rob J Hyndman](https://robjhyndman.com). My research focuses on statistical computing and graphics, and data science. I design and develop human-centered and data-oriented statistical software for [![R](https://www.r-project.org/logo/Rlogo.svg)](https://www.r-project.org).
+I'm a weekday `data[c("explorer", "visualiser", "toolmaker")]` based in Sydney. 
+
+Previously, I was an academic. I earned my PhD from Monash University, under the supervision of [Dianne Cook](http://dicook.org) and [Rob J Hyndman](https://robjhyndman.com).
+
+---
 
 Briefly speaking, I turn coffee (mostly flat white) into code, and extract insights from data through code.
