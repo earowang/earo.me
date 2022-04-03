@@ -55,7 +55,7 @@ email: ""
 user_groups: []
 ---
 
-I'm a weekday `data[c("explorer", "visualiser", "toolmaker")]` based in Sydney. 
+I'm a weekday `data[c("explorer", "visualiser", "toolmaker")]`, based in Sydney. 
 
 Previously, I was an academic. I earned my PhD from Monash University, under the supervision of [Dianne Cook](http://dicook.org) and [Rob J Hyndman](https://robjhyndman.com).
 
